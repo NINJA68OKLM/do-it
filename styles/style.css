@@ -65,7 +65,7 @@ header>ul>li>a
 }
 header li a:hover
 {
-    background: #F2F2F2;
+    background: #FFFDEF;
 }
 .sub-menu
 {
@@ -217,7 +217,8 @@ header li a:hover
 }
 .agence>.devant
 {
-    display: none;
+    background-image: url("../img/agence.jpg");
+    background-size: 100%;
 }
 .alimentation>.devant
 {
@@ -680,7 +681,7 @@ hr{
 }
 
 .immg1{
-    background-image: url("../img/nike.jpg");
+    background-image: url("../img/nike1.jpg");
     background-size:100%;
 }
 .test1{
@@ -709,8 +710,8 @@ hr{
 
 
 .immg2{
-    background-image:url("../img/wwe.jpg");
-    background-size:104%;
+    background-image:url("../img/wwe1.jpg");
+    background-size:100%;
 }
 
 .square2{
@@ -730,7 +731,7 @@ hr{
 }
 
 .immg3{
-    background-image: url("../img/johncena.jpg");
+    background-image: url("../img/johncena1.jpg");
     background-size: 100%;
 }
 
@@ -751,7 +752,7 @@ hr{
 }
 
 .immg4{
-    background-image: url("../img/therock.jpg");
+    background-image: url("../img/therock1.jpg");
     background-size: 100%;
 }
 
@@ -771,7 +772,7 @@ hr{
     width: 26.67vw;
     border-top-left-radius:30px;
     border-bottom-left-radius:30px;
-    background-image: url("../img/recette.jpg");
+    background-image: url("../img/recette1.jpg");
     background-size: 100%;
     grid-row: span 2;
 }
@@ -780,7 +781,7 @@ hr{
     width: 26.67vw;
     border-top-right-radius:30px;
     border-bottom-right-radius:30px;
-    background-image: url("../img/shaker.jpg");
+    background-image: url("../img/shaker1.jpg");
     background-size: 100%;
     grid-row: span 2;
 }
@@ -859,6 +860,436 @@ hr{
     padding: 5px;
     font-size: 2.75vw;
 }
+
+/* Alimentation : Recette */
+
+.connexion1{
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+
+.rec1{
+    width: 25vw;
+    height: 75vh;
+    background-color: #26A699;
+    border-radius: 30px;
+}
+
+.tiitle1{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.pics1{
+    width: 20vw;
+    height: 25vh;
+    background-image: url("../img/tomate.jpg");
+    background-size: 100%;
+    margin-top: 5%;
+}
+
+.mouv1{
+    display: flex;
+    justify-content: center;
+}
+
+.blabla1{
+    font-size: 25px;
+}
+
+.mouv2{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.kontour1{
+    background-color: #F29D35;
+    border-radius: 30px;
+    padding: 20px 0px 20px 0px;
+    width: 22.5vw;
+}
+
+.chacal1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* 2eme recette */
+
+.rec2{
+    width: 25vw;
+    height: 75vh;
+    background-color: #26A699;
+    border-radius: 30px;
+}
+
+.tiitle2{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.pics2{
+    width: 20vw;
+    height: 25vh;
+    background-image: url("../img/tomate.jpg");
+    background-size: 100%;
+    margin-top: 5%;
+}
+
+.mouv3{
+    display: flex;
+    justify-content: center;
+}
+
+.blabla2{
+    font-size: 25px;
+}
+
+.mouv4{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.kontour2{
+    background-color: #F29D35;
+    border-radius: 30px;
+    padding: 20px 0px 20px 0px;
+    width: 22.5vw;
+}
+
+.chacal2{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* 3eme recette */
+
+.rec3{
+    width: 25vw;
+    height: 75vh;
+    background-color: #26A699;
+    border-radius: 30px;
+}
+
+.tiitle3{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.pics3{
+    width: 20vw;
+    height: 25vh;
+    background-image: url("../img/tomate.jpg");
+    background-size: 100%;
+    margin-top: 5%;
+}
+
+.mouv5{
+    display: flex;
+    justify-content: center;
+}
+
+.blabla3{
+    font-size: 25px;
+}
+
+.mouv6{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.kontour3{
+    background-color: #F29D35;
+    border-radius: 30px;
+    padding: 20px 0px 20px 0px;
+    width: 22.5vw;
+}
+
+.chacal3{
+    display: flex;
+    justify-content: center;
+}
+
+/* 4eme recette */
+
+.rec4{
+    width: 25vw;
+    height: 75vh;
+    background-color: #26A699;
+    border-radius: 30px;
+}
+
+.tiitle4{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.pics4{
+    width: 20vw;
+    height: 25vh;
+    background-image: url("../img/tomate.jpg");
+    background-size: 100%;
+    margin-top: 5%;
+}
+
+.mouv7{
+    display: flex;
+    justify-content: center;
+}
+
+.blabla4{
+    font-size: 25px;
+}
+
+.mouv8{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.kontour4{
+    background-color: #F29D35;
+    border-radius: 30px;
+    padding: 20px 0px 20px 0px;
+    width: 22.5vw;
+}
+
+.chacal4{
+    display: flex;
+    justify-content: center;
+}
+
+/* 5eme recette */
+
+.rec5{
+    width: 25vw;
+    height: 75vh;
+    background-color: #26A699;
+    border-radius: 30px;
+}
+
+.tiitle5{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.pics5{
+    width: 20vw;
+    height: 25vh;
+    background-image: url("../img/tomate.jpg");
+    background-size: 100%;
+    margin-top: 5%;
+}
+
+.mouv9{
+    display: flex;
+    justify-content: center;
+}
+
+.blabla5{
+    font-size: 25px;
+}
+
+.mouv10{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.kontour5{
+    background-color: #F29D35;
+    border-radius: 30px;
+    padding: 20px 0px 20px 0px;
+    width: 22.5vw;
+}
+
+.chacal5{
+    display: flex;
+    justify-content: center;
+}
+
+.connexion2{
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* Alimentation : Shakers */
+
+.titlee{
+    padding: 20px;
+    background-image: url("../img/water.jpg");
+    background-size: 100%;
+}
+.yes{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+
+/* 1er shaker */
+
+.shaker1{
+    display: flex;
+}
+.pik1{
+    background-image:url("../img/bottle.jpg");
+    width: 30vw;
+    height: 31.57vw;
+    background-size:104%;
+}
+.karri1{
+    width: 70vw;
+    height: 31.57vw;
+    background: #26A699;
+}
+.taper1{
+    display: flex;
+    justify-content: center;
+}
+.xtx1{
+    text-align: center;
+    width: 60vw;
+    padding-top: 40px;
+}
+.sin1{
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+/* 2eme shaker */
+
+.shaker2{
+    display: flex;
+}
+.pik2{
+    background-image:url("../img/phone.jpg");
+    width: 30vw;
+    height: 31.57vw;
+    background-size:100%;
+}
+.karri2{
+    width: 70vw;
+    height: 31.57vw;
+    background: #F29D35;
+}
+.taper2{
+    display: flex;
+    justify-content: center;
+}
+.xtx2{
+    text-align: center;
+    width: 60vw;
+    padding-top: 40px;
+}
+.sin2{
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+/* 3eme shaker */
+
+.shaker3{
+    display: flex;
+}
+.pik3{
+    background-image:url("../img/shirt.jpg");
+    width: 30vw;
+    height: 31.57vw;
+    background-size:100%;
+}
+.karri3{
+    width: 70vw;
+    height: 31.57vw;
+    background: #26A699;
+}
+.taper3{
+    display: flex;
+    justify-content: center;
+}
+.xtx3{
+    text-align: center;
+    width: 60vw;
+    padding-top: 40px;
+}
+.sin3{
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+/* 4eme shaker */
+
+.shaker4{
+    display: flex;
+}
+.pik4{
+    background-image:url("../img/visite.jpg");
+    width: 30vw;
+    height: 31.57vw;
+    background-size:104%;
+}
+.karri4{
+    width: 70vw;
+    height: 31.57vw;
+    background: #F29D35;
+}
+.taper4{
+    display: flex;
+    justify-content: center;
+}
+.xtx4{
+    text-align: center;
+    width: 60vw;
+    padding-top: 40px;
+}
+.sin4{
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+
 
 /* Exercice */
 
@@ -995,6 +1426,7 @@ hr{
 .texte6{
     /* right: 1vw; */
     top: 230vw;
+    z-index: 10;
 }
 .texte7{
     /* left: 13vw; */
@@ -1218,4 +1650,43 @@ hr{
     bottom: 0px;
     left: 0px;
     right: 0px;
+}
+
+/* Exercice : Cardio */
+
+.grid2
+{
+    margin-top: 0%;
+}
+.imaag1, .imaag2, .imaag3
+{
+    width: 66vw;
+    height: 33vw;
+    background-size: 100%;
+    grid-column: span 2;
+}
+.imaag1
+{
+    background-image: url("../img/cardio1.jpg");
+}
+.imaag2
+{
+    background-image: url("../img/scott-webb-xwMlVSqP20U-unsplash1.jpg");
+}
+.imaag3
+{
+    background-image: url("../img/meghan-holmes-buWcS7G1_28-unsplash1.jpg");
+}
+.grid2>.lien1, .grid2>.lien2, .grid2>.lien3
+{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.grid2>.lien1>h1, .grid2>.lien2>h1, .grid2>.lien3>h1
+{
+    font-size: 3.5vw;
+}
+.grid2>.lien1>p, .grid2>.lien2>p, .grid2>.lien3>p
+{
+    font-size: 1.5vw;
 }
