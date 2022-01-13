@@ -51,6 +51,7 @@ li
 header>ul>li>a
 {
     padding: 10px;
+    color: black;
 }
 .wrapper>li
 {
@@ -58,10 +59,6 @@ header>ul>li>a
 }
 header>ul>li, header>ul>ul>li{
     display: block;
-}
-header>ul>li>a
-{
-    color: black;
 }
 header li a:hover
 {
@@ -90,7 +87,6 @@ header li a:hover
 
 .diapo
 {
-    /* margin-top: 55px; */
     width: 98.5vw;
     height: 44.44vw;
     overflow: hidden;
@@ -104,12 +100,9 @@ header li a:hover
 }
 .diapo>.imgdiapo
 {
+    display: flex;
     width: 100%;
     height: 100%;
-}
-.diapo>.imgdiapo
-{
-    display: flex;
     transition: 2s;
 }
 .imgdiapo>.image>img
@@ -264,21 +257,19 @@ header li a:hover
 .cardio, .musculation, .prdema
 {
     grid-column: span 2;
+    background-size: 100%;
 }
 .cardio
 {
     background-image: url("../img/gabin-vallet-J154nEkpzlQ-unsplash.jpg");
-    background-size: 100%;
 }
 .musculation
 {
     background-image: url("../img/gorilla-freak-wt5jg8_WrJg-unsplash.jpg");
-    background-size: 100%;
 }
 .prdema
 {
     background-image: url("../img/scott-webb-xwMlVSqP20U-unsplash.jpg");
-    background-size: 100%;
 }
 .lien1, .lien2, .lien3
 {
@@ -404,18 +395,24 @@ input[type=checkbox]
     position: fixed;
     z-index: -1;
 }
+.banderole1, .banderole2
+{
+    opacity: 0;
+}
 .banderole1{
     display: block;
     justify-content: center;
     padding: 50px;
     padding-left: 15px;
-    opacity: 0;
     animation: fondu 3s;
 }
-.bloc1{
+.bloc1, .bloc2
+{
     display: grid;
-    /* grid-template-columns: 366.867px 600px;
-    grid-template-rows: 400px 200px; */
+    border-radius:30px;
+    box-shadow: 10px 10px 15px gray;
+}
+.bloc1{
     grid-template-columns: 26.67vw 53.33vw;
     grid-template-rows: 32.12vw 16.06vw;
     height: 48.19vw;
@@ -429,26 +426,18 @@ input[type=checkbox]
     display: flex;
     justify-content: center;
     padding: 20px;
-    opacity: 0;
-    animation: fondu2 4s;
+    animation: fondu 4s;
     animation-delay: 1s;
 }
 .bloc2{
-    display: grid;
     grid-template-columns: 53.33vw 26.67vw;
     grid-template-rows: 32.12vw 16.06vw;
     height: 48.19vw;
     width: 80vw;
     background-color: #26A699;
     margin-left: 35px;
-    border-radius:30px;
-    box-shadow: 10px 10px 15px gray;
 }
 @keyframes fondu {
-    0% { opacity: 0;}
-    100% { opacity: 1;}
-}
-@keyframes fondu2 {
     0% { opacity: 0;}
     100% { opacity: 1;}
 }
@@ -461,10 +450,8 @@ input[type=checkbox]
     background-size: 100%;
     grid-row: span 2;
 }
-
 .texte{
     height: 14.04vw;
-    /* width: 500px; */
     width: 51vw;
     padding: 5px;
     font-size:2.75vw;
@@ -520,14 +507,11 @@ input[type=checkbox]
     margin-bottom: 50px;
     color: white;
 }
-
 hr{
     border : solid 5px white;
     width: 75vw;
     margin-bottom: 70px;
 }
-
-
 .ligne1{
     display: block;
     margin-top: 30px;
@@ -535,7 +519,6 @@ hr{
     gap: 3vw;
     margin-bottom: 10px;
 }
-
 .carre1, .carre2, .carre3, .carre4
 {
     width: 80vw;
@@ -550,7 +533,6 @@ hr{
 {
     margin-top: 10px;
 }
-
 .ligne2{
     display: block;
     justify-content: center;
@@ -591,7 +573,6 @@ hr{
     height: 37.64vw;
     width: 25vw;
 }
-
 .nom1, .nom2, .nom3, .nom4
 {
     font-size: 4.5vw;
@@ -600,44 +581,17 @@ hr{
     margin-top: 2.5%;
     color: white;
 }
-
-.osman{
+.osman, .mustafa, .albin, .valentin{
     width: 12vw;
     border : 3px solid white;
     margin-bottom: 50px;
 }
-
 .description1, .description2, .description3, .description4
 {
     padding: 15px;
     font-size: 2.25vw;
     color: white;
     width: 37vw;
-}
-
-
-/* Valentin */
-
-.valentin{
-    width: 12vw;
-    border : 3px solid white;
-    margin-bottom: 50px;
-}
-
-/* Mustafa */
-
-.mustafa{
-    width: 12vw;
-    border : 3px solid white;
-    margin-bottom: 50px;
-}
-
-/* Albin */
-
-.albin{
-    width: 12vw;
-    border : 3px solid white;
-    margin-bottom: 50px;
 }
 
 /* Agence : Partenaire */
@@ -647,7 +601,6 @@ hr{
     background-image: url("../img/sable.jpg");
     font-size: 100%;
 }
-
 .yes{
     display: flex;
     justify-content: center;
@@ -662,7 +615,6 @@ hr{
 {
     width: 70vw;
     height: 36.73vw;
-
 } 
 .immg1, .immg2, .immg3, .immg4
 {
@@ -675,11 +627,10 @@ hr{
 .nike{
     display: flex;
 }
-
-.square1{
+.square1, .square3
+{
     background-color: #EFC334;
 }
-
 .immg1{
     background-image: url("../img/nike1.jpg");
     background-size:100%;
@@ -694,31 +645,25 @@ hr{
     width: 60vw;
     padding-top: 3vw;
 }
-
 .cont1, .cont2, .cont3, .cont4
 {
     font-size: 1.75vw;
     margin-top: 3vw;
 }
 
-
 /* Pour WWE */
 
 .wwe{
     display: flex;
 }
-
-
 .immg2{
     background-image:url("../img/wwe1.jpg");
     background-size:100%;
 }
-
-.square2{
+.square2, .square2
+{
     background: #26A699;
 }
-
-
 .test2{
     display: flex;
     justify-content: center;
@@ -734,16 +679,10 @@ hr{
     background-image: url("../img/etchebest.jpg");
     background-size: 100%;
 }
-
-.square3{
-    background-color: #EFC334;
-}
-
 .test3{
     display: flex;
     justify-content: center;
 }
-
 
 /* Pour THE ROCK */
 
@@ -756,9 +695,6 @@ hr{
     background-size: 100%;
 }
 
-.square4{
-    background-color: #26A699;
-}
 
 .test4{
     display: flex;
@@ -809,16 +745,18 @@ hr{
     border-radius:30px;
     box-shadow: 10px 10px 15px gray;
 }
+.boutton10, .boutton11
+{
+    background: white;
+    height: 3.5vw;
+    width: 14vw;
+}
 .boutton10{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 32vw;
     margin-top: 11vw;
-    height: 3.5vw;
-    width: 14vw;
-    background-color: wheat;
-    border-radius: 100px;
 }
 .boutton11{
     display: flex;
@@ -826,10 +764,6 @@ hr{
     align-items: center;
     margin-top: 2vw;
     margin-left: 3.5vw;
-    height: 3.5vw;
-    width: 14vw;
-    background-color: wheat;
-    border-radius: 100px;
 }
 .texte10
 {
@@ -869,43 +803,50 @@ hr{
     justify-content: center;
     padding-top: 5%;
 }
-
-
 .rec1, .rec2, .rec3, .rec4, .rec5
 {
-    width: 25vw;
-    height: 36.23vw;
+    width: 80vw;
+    height: 115.94vw;
+    margin-left: 10vw;
     background-color: #26A699;
     border-radius: 30px;
     display: grid;
-    grid-template-rows: 6.63vw 29.6vw;
+    grid-template-rows: 15.94vw 100vw;
 }
-
-.tiitle1{
-    text-align: center;
-    padding: 30px;
-    font-size: 30px;
+.rec2, .rec3, .rec5
+{
+    margin-top: 5%;
+}
+.tiitle1, .tiitle2, .tiitle3, .tiitle4, .tiitle5
+{
+    padding: 4vw;
+    font-size: 4vw;
     font-weight: bold;
-    
+    text-align: center;
 }
-
-.pics1{
-    width: 20vw;
-    height: 25vh;
-    background-image: url("../img/lasagne-epinard-healthy-saumon.png");
+.pics1, .pics2, .pics3, .pics4, .pics5
+{
+    width: 64.01vw;
+    height: 32.32vh;
     background-size: 100%;
     margin-top: 5%;
 }
-
+.pics1
+{
+    background-image: url("../img/lasagne-epinard-healthy-saumon.png");
+}
 .mouv1{
     display: flex;
     justify-content: center;
 }
-
-.blabla1{
-    font-size: 25px;
+.blabla1, .blabla2, .blabla3, .blabla4, .blabla5
+{
+    font-size: 2.5vw;
 }
-
+.blabla1>ul, .blabla2>ul, .blabla3>ul, .blabla4>ul, .blabla5>ul
+{
+    padding-left: 15px;
+}
 .mouv2{
     display: flex;
     justify-content: center;
@@ -913,191 +854,68 @@ hr{
     margin-right: 10%;
     margin-top: 10%;
 }
-
 .kontour1, .kontour2, .kontour3, .kontour4, .kontour5
 {
     background-color: #EFC334;
     border-radius: 30px;
-    width: 22.5vw;
-    height: 29vw
+    width: 72.02vw;
+    height: 93.6vw
 }
-
-.chacal1{
+.chacal1, .chacal6, .chacal4, .chacal5, .chacal2, .chacal4, .mouv7, .mouv8, .mouv9, .mouv10, .mouv11, .mouv12
+{
     display: flex;
     justify-content: center;
 }
-
-
-
 
 /* 2eme recette */
 
-.tiitle2{
-    text-align: center;
-    padding: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    
-}
-
 .pics2{
-    width: 20vw;
-    height: 25vh;
     background-image: url("../img/Gaufres.png");
-    background-size: 100%;
-    margin-top: 5%;
 }
-
-.mouv3{
-    display: flex;
-    justify-content: center;
-}
-
-.blabla2{
-    font-size: 25px;
-}
-
 .mouv4{
-    display: flex;
-    justify-content: center;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
 }
-.chacal2{
-    display: flex;
-    justify-content: center;
-}
-
 
 /* 3eme recette */
 
-.tiitle3{
-    text-align: center;
-    padding: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    
-}
-
 .pics3{
-    width: 20vw;
-    height: 25vh;
     background-image: url("../img/pancakes-sarrasin.png");
-    background-size: 100%;
-    margin-top: 5%;
 }
-
-.mouv5{
-    display: flex;
-    justify-content: center;
-}
-
-.blabla3{
-    font-size: 25px;
-}
-
 .mouv6{
-    display: flex;
-    justify-content: center;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
-}
-
-.chacal3{
-    display: flex;
-    justify-content: center;
 }
 
 /* 4eme recette */
 
-.tiitle4{
-    text-align: center;
-    padding: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    
-}
-
 .pics4{
-    width: 20vw;
-    height: 25vh;
     background-image: url("../img/Beignets-de-courgettes-et-feta-healthy.png");
-    background-size: 100%;
-    margin-top: 5%;
 }
-
-.mouv7{
-    display: flex;
-    justify-content: center;
-}
-
-.blabla4{
-    font-size: 25px;
-}
-
 .mouv8{
-    display: flex;
-    justify-content: center;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
-}
-
-.chacal4{
-    display: flex;
-    justify-content: center;
 }
 
 /* 5eme recette */
 
-.tiitle5{
-    text-align: center;
-    padding: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    
-}
-
 .pics5{
-    width: 20vw;
-    height: 25vh;
     background-image: url("../img/soupe-oignon-healthy.png");
-    background-size: 100%;
-    margin-top: 5%;
 }
-
-.mouv9{
-    display: flex;
-    justify-content: center;
-}
-
-.blabla5{
-    font-size: 25px;
-}
-
 .mouv10{
-    display: flex;
-    justify-content: center;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
 }
-
-.chacal5{
-    display: flex;
-    justify-content: center;
-}
-
 .connexion2{
     display: block;
-    gap: 5vw;
-    justify-content: center;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -1332,37 +1150,25 @@ hr{
     top: 33.5vw;
 }
 .texte3{
-    /* left : 2vw; */
     top: 30vw;
 }
-
 .texte4{
-    /* left: 28vw; */
     top: 95.3vw;
 }
-
 .texte5{
-    /* right: 27vw; */
     top: 160vw;
 }
-
 .texte6{
-    /* right: 1vw; */
     top: 230vw;
     z-index: 10;
 }
 .texte7{
-    /* left: 13vw; */
     top: 300vw;
 }
-
 .texte8{
-    /* left: 40vw; */
     top: 365vw;
 }
-
 .texte9{
-    /* right: 14vw; */
     top: 435vw;
 }
 .boutton3, .boutton4, .boutton5, .boutton6, .boutton7, .boutton8, .boutton9
@@ -1490,80 +1296,21 @@ hr{
     border : transparent 10px solid;
     border-radius: 30px;
 }
-.bloc3:hover{
+.bloc3:hover, .bloc6:hover, .bloc8:hover, .bloc9:hover
+{
     border : #EFC334 10px solid;
     border-radius: 30px;
     transition: 1s;
 }
 
-.bloc4:hover{
+.bloc4:hover, .bloc5:hover, .bloc7:hover
+{
     border : #26A699 10px solid;
     border-radius: 30px;
     transition: 1s;
 }
-
-.bloc5:hover{
-    border : #26A699 10px solid;
-    border-radius: 30px;
-    transition: 1s;
-}
-
-.bloc6:hover{
-    border : #EFC334 10px solid;
-    border-radius: 30px;
-    transition: 1s;
-}
-
-.bloc7:hover{
-    border : #26A699 10px solid;
-    border-radius: 30px;
-    transition: 1s;
-}
-
-.bloc8:hover{
-    border : #EFC334 10px solid;
-    border-radius: 30px;
-    transition: 1s;
-}
-
-.bloc9:hover{
-    border : #EFC334 10px solid;
-    border-radius: 30px;
-    transition: 1s;
-}
-
-.filtre3:hover{
-    opacity: 0;
-    transition: 1s;
-}
-
-.filtre4:hover{
-    opacity: 0;
-    transition: 1s;
-}
-
-.filtre5:hover{
-    opacity: 0;
-    transition: 1s;
-}
-
-.filtre6:hover{
-    opacity: 0;
-    transition: 1s;
-}
-
-.filtre7:hover{
-    opacity: 0;
-    transition: 1s;
-}
-
-
-.filtre8:hover{
-    opacity: 0;
-    transition: 1s;
-}
-
-.filtre9:hover{
+.filtre3:hover, .filtre4:hover, .filtre5:hover, .filtre6:hover, .filtre7:hover, .filtre8:hover, .filtre9:hover
+{
     opacity: 0;
     transition: 1s;
 }

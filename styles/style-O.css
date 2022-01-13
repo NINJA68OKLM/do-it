@@ -2,17 +2,12 @@
 
 header
 {
-    padding: 10px;
     padding-bottom: 0px;
     display: flex;
 }
 header>svg
 {
     display: none;
-}
-a
-{
-    text-decoration: none;
 }
 li
 {
@@ -34,10 +29,6 @@ li
 {
     margin-top: 0px;
 }
-header>ul>li>a
-{
-    padding: 10px;
-}
 .sub-menu>li>a
 {
     color: black;
@@ -52,7 +43,6 @@ header li:hover .sub-menu
 }
 .sub-menu
 {
-    display: none;
     position: absolute;
     z-index: 15;
     background: #EFC334;
@@ -78,32 +68,11 @@ header li:hover .sub-menu
 
 /* Accueil : Section diapo */
 
-/* .diapo
-{
-    width: 76.5vw;
-    height: 53.33vw;
-} */
-.flex2
-{
-    position: absolute;
-    display: flex;
-    margin-left: 5vw;
-    justify-content: space-evenly;
-}
-.diapo>.imgdiapo
-{
-    display: flex;
-    transition: 2s;
-}
 .rondd
 {
     transform: translate(0px, 20vw);
     width: 75px;
     height: 75px;
-    border-radius: 100%;
-    background: gray;
-    opacity: 0.7;
-    z-index: 2;
 }
 .droitee
 {
@@ -120,17 +89,12 @@ header li:hover .sub-menu
 }
 .image>p
 {
-    position: relative;
     width: 100%;
     bottom: 35vh;
-    left: 0px;
     font-size: 56px;
-    background: gray;
-    opacity: 0.5;
 }
 .filtre
 {
-    position: absolute;
     z-index: 5;
     width: 20vw;
     height: 11.62vw;
@@ -138,11 +102,6 @@ header li:hover .sub-menu
 
 /* Accueil : Section grand axes */
 
-#grandaxe
-{
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
 .grandaxe>.flexcenter
 {
     margin-right: 10vw;
@@ -162,18 +121,12 @@ header li:hover .sub-menu
 {
     width: 20vw;
     height: 11.62vw;
-    position: absolute;
-    color: white;
-    z-index: 1;
 }
 .derriere>div
 {
     margin-top: 9.75vw;
     margin-left: 10px;
-    border-radius: 10px;
-    border: 2px solid white;
     width: 16vw;
-    padding-left: 1vw;
 }
 .devant
 {
@@ -182,27 +135,13 @@ header li:hover .sub-menu
     height: 11.62vw;
     z-index: 2;
 }
-.alimentation>.devant
+.alimentation>.devant, .reservation>.derriere, .alimentation>.derriere, .exercice>.derriere, .reservation>.devant, .exercice>.devant
 {
-    background-image: url("../img/photo-1529973565457-a60a2ccf750d.jpg");
-    background-size: 100%;
-    margin-top: 0px;
-}
-.exercice>.devant
-{
-    background-image: url("../img/photo-1483721310020-03333e577078.jpg");
-    background-size: 100%;
     margin-top: 0px;
 }
 .reservation>.devant
 {
-    background-image: url("../img/photo-1559030623-0226b1241edd.jpg");
     background-size: 105%;
-    margin-top: 0px;
-}
-.reservation>.derriere, .alimentation>.derriere, .exercice>.derriere
-{
-    margin-top: 0px;
 }
 .translate
 {
@@ -211,29 +150,9 @@ header li:hover .sub-menu
 
 /* Accueil : Exercices */
 
-.gridexo
-{
-    display: grid;
-    grid-template-columns: 33vw 33vw 33vw;
-    grid-template-rows: 33vw 33vw 33vw;
-}
-.cardio, .musculation, .prdema
-{
-    grid-column: span 2;
-}
 .lien1>a, .lien2>a, .lien3>a
 {
-    color: white;
-    border: 2px solid white;
     margin-left: 45%;
-    padding: 5px;
-    border-radius: 5px;
-}
-.prdema>h1, .prdema>p, .musculation>h1, .musculation>p, .cardio>p, .cardio>h1
-{
-    position: absolute;
-    z-index: 6;
-    padding-left: 15px;
 }
 .cardio>h1, .prdema>h1, .musculation>h1
 {
@@ -294,12 +213,10 @@ form
 }
 .filtre3
 {
-    z-index: -5;
+    z-index: 15;
     position: absolute;
     top: 0px;
     right: 0px;
-    width: 700px;
-    height: 100vh;
     background: gray;
     opacity: 0.7;
 }
@@ -313,41 +230,18 @@ form
 
 /* Agence */
 
-.noir{
-    background-color: black;
-    width: 100vw;
-    height: 100%;
-    opacity: 0.5;
-    position: fixed;
-    z-index: -1;
-}
 .banderole1{
     display: flex;
-    justify-content: center;
-    padding: 50px;
-    opacity: 0;
-    animation: fondu 3s;
 }
 .bloc1{
     display: grid;
-    /* grid-template-columns: 366.867px 600px;
-    grid-template-rows: 400px 200px; */
     grid-template-columns: 15vw 30vw;
     grid-template-rows: 18.06vw 9.03vw;
     height: 27.10vw;
     width: 45vw;
-    margin-right: 300px;
-    background-color: #EFC334;
-    border-radius: 30px;
-    box-shadow: 10px 10px 15px gray;
 }
 .banderole2{
-    display: flex;
-    justify-content: center;
     padding: 50px;
-    opacity: 0;
-    animation: fondu2 4s;
-    animation-delay: 1s;
 }
 .bloc2{
     display: grid;
@@ -357,82 +251,54 @@ form
     width: 45vw;
     background-color: #26A699;
     margin-left: 400px;
-    border-radius:30px;
-    box-shadow: 10px 10px 15px gray;
 }
 @keyframes fondu {
     0% { opacity: 0;}
     100% { opacity: 1;}
 }
-@keyframes fondu2 {
-    0% { opacity: 0;}
-    100% { opacity: 1;}
-}
-.image2{
-    height: 100%;
+.image2
+{
     width: 15vw;
 }
-.texte{
-    height: 14.04vw;
-    /* width: 500px; */
+.texte
+{
     width: 25vw;
     padding: 25px;
-    font-size:20px;
+    font-size:1.25vw;
     margin-left: 40px;
 }
 .boutton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: 18vw;
     margin-top: 3.5vw;
     height: 2.5vw;
     width: 10vw;
-    background-color: wheat;
-    border-radius: 100px;
 }
 .btn, .btn2{
     font-size: 18px;
 }
 .texte2{
-    height: 100%;
     width: 25vw;
     padding: 50px;
     font-size:20px;
 }
 .image3{
-    height: 100%;
     width: 15vw;
 }
 .boutton2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8vw;
+    margin-top: 0px;
     height: 2.5vw;
     width: 10vw;
-    background-color: wheat;
-    border-radius: 100px;
 }
 
 /* Agence : Equipe */
 
 .premier{
-    display: flex;
     font-size: 50px;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    color: white;
 }
 
 hr{
-    border : solid 5px white;
     width: 50vw;
-    margin-bottom: 70px;
 }
-
-
 .ligne1{
     display: flex;
     margin: 30px;
@@ -441,7 +307,6 @@ hr{
 {
     width: 45vw;
     height: 19.76vw;
-    background-color: transparent;
     display: flex;
 }
 .carre2, .carre4
@@ -479,189 +344,35 @@ hr{
     height: 29vw;
     width: 25vw;
 }
-
 .nom1, .nom2, .nom3, .nom4
 {
     font-size: 35px;
-    display: flex;
-    justify-content: center;
     margin-top: 20px;
-    color: white;
 }
-
-.osman{
-    width: 12vw;
-    border : 3px solid white;
-    margin-bottom: 50px;
-}
-
 .description1, .description2, .description3, .description4
 {
-    padding: 15px;
     font-size: 1.05vw;
-    color: white;
     padding-bottom: 20px;
     height: 15vw;
     width: auto;
 }
 
-
-/* Valentin */
-
-.valentin{
-    width: 12vw;
-    border : 3px solid white;
-    margin-bottom: 50px;
-}
-
-/* Mustafa */
-
-.mustafa{
-    width: 12vw;
-    border : 3px solid white;
-    margin-bottom: 50px;
-}
-
-/* Albin */
-
-.albin{
-    width: 12vw;
-    border : 3px solid white;
-    margin-bottom: 50px;
-}
-
 /* Agence : Partenaire */
 
-.title{
-    padding: 20px;
-    background-image: url("../img/sable.jpg");
-    font-size: 100%;
-}
-
 .yes{
-    display: flex;
-    justify-content: center;
     font-size: 45px;
 }
-
 .square1, .square2, .square3, .square4
 {
     width: 70vw;
     height: 36.73vw;
 
 } 
-.immg1, .immg2, .immg3, .immg4
-{
-    width: 30vw;
-    height: 36.7vw;
-}
 
 /* Pour NIKE */
 
-.nike{
-    display: flex;
-}
-
-.square1{
-    background-color: #EFC334;
-}
-/* 
-.immg1{
-    background-image: url("../img/nike.jpg");
-    background-size:100%;
-} */
-
-
-.test1{
-    display: flex;
-    justify-content: center;
-}
-.txt1{
-    text-align: center;
-    width: 60vw;
-    padding-top: 40px;
-}
-
-.cont1, .cont2, .cont3, .cont4
+.txt1, .txt2, .txt3, .txt4
 {
-    font-size: 1.75vw;
-    margin-top: 3vw;
-}
-
-
-/* Pour WWE */
-
-.wwe{
-    display: flex;
-}
-
-
-/* .immg2{
-    background-image:url("../img/wwe.jpg");
-    background-size:104%;
-} */
-
-.square2{
-    background: #26A699;
-}
-
-
-.test2{
-    display: flex;
-    justify-content: center;
-}
-.txt2{
-    text-align: center;
-    width: 60vw;
-    padding-top: 40px;
-}
-
-/* Pour JOHN CENA */
-
-.cena{
-    display: flex;
-}
-
-/* .immg3{
-    background-image: url("../img/johncena.jpg");
-    background-size: 100%;
-} */
-
-.square3{
-    background-color: #EFC334;
-}
-
-.test3{
-    display: flex;
-    justify-content: center;
-}
-.txt3{
-    text-align: center;
-    width: 60vw;
-    padding-top: 40px;
-}
-
-
-/* Pour THE ROCK */
-
-.rock{
-    display: flex;
-}
-
-/* .immg4{
-    background-image: url("../img/therock.jpg");
-    background-size: 100%;
-} */
-
-.square4{
-    background-color: #26A699;
-}
-
-.test4{
-    display: flex;
-    justify-content: center;
-}
-.txt4{
     text-align: center;
     width: 60vw;
     padding-top: 40px;
@@ -677,79 +388,47 @@ hr{
 }
 .bloc10
 {
-    display: grid;
-    /* grid-template-columns: 366.867px 600px;
-    grid-template-rows: 400px 200px; */
     grid-template-columns: 15vw 30vw;
     grid-template-rows: 18.06vw 9.03vw;
     height: 27.10vw;
     width: 45vw;
-    margin-right: 300px;
     background-color: #26A699;
     border-radius: 30px;
-    box-shadow: 10px 10px 15px gray;
 }
 .bloc11
 {
-    display: grid;
     grid-template-columns: 30vw 15vw;
     grid-template-rows: 9.03vw 18.06vw;
     height: 27.10vw;
     width: 45vw;
-    background-color: #EFC334;
     margin-left: 400px;
-    border-radius:30px;
-    box-shadow: 10px 10px 15px gray;
+}
+.boutton10, .boutton11
+{
+    height: 2.5vw;
+    width: 10vw;
 }
 .boutton10{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: 18vw;
     margin-top: 5.5vw;
-    height: 2.5vw;
-    width: 10vw;
-    background-color: wheat;
-    border-radius: 100px;
 }
 .boutton11{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 1.9vw;
     margin-left: 2vw;
-    height: 2.5vw;
-    width: 10vw;
-    background-color: wheat;
-    border-radius: 100px;
 }
 .texte10
 {
-    height: 14.04vw;
     width: 25vw;
-    padding: 5px;
     font-size:1vw;
     margin-left: 40px;
-}
-.texte10>p, .texte10>h1{
-    margin-left: 10px;
-}
-.texte11>p, .texte11>h1{
-    margin-left: 2.5vw;
 }
 .texte10>p, .texte11>p
 {
     font-size: 1.4vw;
 }
-.texte10>h1, .texte11>h1
-{
-    margin-top: 0px;
-}
 .texte11
 {
-    height: 100%;
     width: 25vw;
-    padding: 5px;
     font-size:1vw;
 }
 
@@ -757,139 +436,82 @@ hr{
 
 .connexion1{
     display: flex;
-    gap: 5vw;
-    justify-content: center;
-    padding-top: 5%;
+}
+.rec1, .rec2, .rec3, .rec4, .rec5
+{
+    width: 25vw;
+    height: 36.23vw;
+    margin-left: 0px;
+    grid-template-rows: 6.63vw 29.6vw;
+}
+.rec2, .rec3, .rec5
+{
+    margin-top: 0%;
 }
 .tiitle1, .tiitle2, .tiitle3, .tiitle4, .tiitle5
 {
     text-align: center;
     padding: 2vw;
     font-size: 1.5vw;
-    font-weight: bold;
+}
+.kontour1, .kontour2, .kontour3, .kontour4, .kontour5
+{
+    width: 22.5vw;
+    height: 29vw
 }
 .pics1, .pics2, .pics3, .pics4, .pics5
 {
     width: 20vw;
     height: 12.12vw;
-    background-size: 100%;
     margin-top: 5%;
 }
-
-.mouv1{
-    display: flex;
-    justify-content: center;
-}
-
 .blabla1, .blabla2, .blabla3, .blabla4, .blabla5
 {
     font-size: 0.7vw;
 }
-
 .mouv2{
     display: flex;
     justify-content: center;
     width: 90%;
 }
 
-.chacal1{
-    display: flex;
-    justify-content: center;
-}
-
-
-
-
 /* 2eme recette */
 
-.mouv3{
-    display: flex;
-    justify-content: center;
-}
-
 .mouv4{
-    display: flex;
-    justify-content: center;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
 }
-
-.chacal2{
-    display: flex;
-    justify-content: center;
-}
-
 
 /* 3eme recette */
 
-.mouv5{
-    display: flex;
-    justify-content: center;
-}
-
 .mouv6{
-    display: flex;
-    justify-content: center;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
-}
-
-.chacal3{
-    display: flex;
-    justify-content: center;
 }
 
 /* 4eme recette */
 
-.mouv7{
-    display: flex;
-    justify-content: center;
-}
-
 .mouv8{
-    display: flex;
-    justify-content: center;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
-}
-.chacal4{
-    display: flex;
-    justify-content: center;
 }
 
 /* 5eme recette */
 
-.mouv9{
-    display: flex;
-    justify-content: center;
-}
-
 .mouv10{
-    display: flex;
-    justify-content: center;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
 }
-
-.chacal5{
-    display: flex;
-    justify-content: center;
-}
-
 .connexion2{
     display: flex;
-    gap: 5vw;
-    justify-content: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
 }
 
 /* Alimentation : Shakers */
@@ -1020,7 +642,7 @@ hr{
     margin-top: 5vw;
     justify-content: center;
 }
-.bloc3, .bloc4, .bloc5, .bloc6, .bloc7, .bloc8, .bloc9
+.filtre3, .filtre4, .filtre5, .filtre6, .filtre7, .filtre8,.filtre9, .bloc3, .bloc4, .bloc5, .bloc6, .bloc7, .bloc8, .bloc9
 {
     width: initial;
     height: initial;
@@ -1030,7 +652,7 @@ hr{
 {
     position: absolute;
 }
-.filtre3, .filtre4, .filtre5, .filtre6, .filtre7, .filtre8,.filtre9, .image6, .image7, .image8, .image9, .image10, .image11, .image12
+.image6, .image7, .image8, .image9, .image10, .image11, .image12
 {
     width: 20vw;
     height: 15.03vw;
@@ -1353,84 +975,6 @@ hr{
 @keyframes pop7 {
     0% { opacity: 0;}
     100% { opacity: 1;}
-}
-
-.bloc3:hover{
-    border : #EFC334 10px solid;
-    border-radius: 30px;
-    transition: 1s;
-}
-
-.bloc4:hover{
-    border : #26A699 10px solid;
-    border-radius: 30px;
-    transition: 1s;
-}
-
-.bloc5:hover{
-    border : #26A699 10px solid;
-    border-radius: 30px;
-    transition: 1s;
-}
-
-.bloc6:hover{
-    border : #EFC334 10px solid;
-    border-radius: 30px;
-    transition: 1s;
-}
-
-.bloc7:hover{
-    border : #26A699 10px solid;
-    border-radius: 30px;
-    transition: 1s;
-}
-
-.bloc8:hover{
-    border : #EFC334 10px solid;
-    border-radius: 30px;
-    transition: 1s;
-}
-
-.bloc9:hover{
-    border : #EFC334 10px solid;
-    border-radius: 30px;
-    transition: 1s;
-}
-
-.filtre3:hover{
-    opacity: 0;
-    transition: 1s;
-}
-
-.filtre4:hover{
-    opacity: 0;
-    transition: 1s;
-}
-
-.filtre5:hover{
-    opacity: 0;
-    transition: 1s;
-}
-
-.filtre6:hover{
-    opacity: 0;
-    transition: 1s;
-}
-
-.filtre7:hover{
-    opacity: 0;
-    transition: 1s;
-}
-
-
-.filtre8:hover{
-    opacity: 0;
-    transition: 1s;
-}
-
-.filtre9:hover{
-    opacity: 0;
-    transition: 1s;
 }
 .mich
 {

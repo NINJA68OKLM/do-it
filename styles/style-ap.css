@@ -1,0 +1,250 @@
+body
+{
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* Section Menu */
+
+header
+{
+    background: yellow;
+    padding: 10px;
+    display: block;
+    height: 38px;
+    padding-bottom: 0px;
+}
+header>svg
+{
+    position: absolute;
+    top: 5px;
+}
+.logo
+{
+    background-image: url("../img/1200px-NBC_logo.svg.webp");
+    background-size: 100%;
+    position: absolute;
+    width: 38.55px;
+    height: 38px;
+    top: 0;
+}
+a
+{
+    text-decoration: none;
+}
+li
+{
+    text-align: center;
+}
+.wrapper
+{
+    margin: 0 auto;
+    padding-left: 0px;
+    margin-right: 5px;
+    margin-top: 38px;
+    display: none;
+}
+header>ul>li>a
+{
+    padding: 10px;
+}
+.wrapper>li
+{
+    margin-top: 10px;
+}
+header>ul>li, header>ul>ul>li{
+    display: block;
+}
+header li a:hover
+{
+    background: red;
+}
+.sub-menu
+{
+    display: none;
+    position: absolute;
+    background: yellow;
+    padding-left: 0px;
+    margin-top: 10px;
+}
+.sub-menu>li
+{
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.flexcenter
+{
+    display: flex;
+    justify-content: center;
+}
+.visible
+{
+    display: initial;
+}
+.taille
+{
+    height: auto;
+    padding-top: 38px;
+}
+
+/* CSS Pour la partie partenaires */
+
+.title{
+    padding: 20px;
+    background-image: url("../img/sable.jpg");
+    font-size: 100%;
+}
+
+.yes{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+
+/* Pour NIKE */
+
+.nike{
+    display: flex;
+}
+
+.square1{
+    width: 70vw;
+    height: 65vh;
+    background-color: #F29D35;
+}
+
+.immg1{
+    background-image: url("../img/nike.jpg");
+    width: 30vw;
+    height: 65vh;
+    background-size:100%;
+}
+
+
+.test1{
+    display: flex;
+    justify-content: center;
+}
+.txt1{
+    text-align: center;
+    width: 60vw;
+    padding-top: 40px;
+}
+
+.cont1{
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+
+/* Pour WWE */
+
+.wwe{
+    display: flex;
+}
+
+
+.immg2{
+    background-image:url("../img/wwe.jpg");
+    width: 30vw;
+    height: 65vh;
+    background-size:104%;
+}
+
+.square2{
+    width: 70vw;
+    height: 65vh;
+    background: #26A699;
+}
+
+
+.test2{
+    display: flex;
+    justify-content: center;
+}
+.txt2{
+    text-align: center;
+    width: 60vw;
+    padding-top: 40px;
+}
+
+.cont2{
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+
+
+
+/* Pour JOHN CENA */
+
+.cena{
+    display: flex;
+}
+
+.immg3{
+    background-image: url("../img/johncena.jpg");
+    width: 30vw;
+    height: 65vh;
+    background-size: 100%;
+}
+
+.square3{
+    width: 70vw;
+    height: 65vh;
+    background-color: #F29D35;
+}
+
+.test3{
+    display: flex;
+    justify-content: center;
+}
+.txt3{
+    text-align: center;
+    width: 60vw;
+    padding-top: 40px;
+}
+
+.cont3{
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+
+/* Pour THE ROCK */
+
+.rock{
+    display: flex;
+}
+
+.immg4{
+    background-image: url("../img/therock.jpg");
+    width: 30vw;
+    height: 65vh;
+    background-size: 100%;
+}
+
+.square4{
+    width: 70vw;
+    height: 65vh;
+    background-color: #26A699;
+}
+
+.test4{
+    display: flex;
+    justify-content: center;
+}
+.txt4{
+    text-align: center;
+    width: 60vw;
+    padding-top: 40px;
+}
+
+.cont4{
+    font-size: 25px;
+    margin-top: 100px;
+}
+
