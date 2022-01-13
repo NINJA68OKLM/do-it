@@ -12,7 +12,7 @@ body
 
 header
 {
-    background: #f29d35;
+    background: #EFC334;
     padding: 10px;
     display: block;
     height: 38px;
@@ -290,7 +290,7 @@ header li a:hover
 }
 .lien2
 {
-    background: #F29D35;
+    background: #EFC334;
 }
 .lien3
 {
@@ -421,7 +421,7 @@ input[type=checkbox]
     height: 48.19vw;
     width: 80vw;
     margin-right: 300px;
-    background-color: #F29D35;
+    background-color: #EFC334;
     border-radius: 30px;
     box-shadow: 10px 10px 15px gray;
 }
@@ -677,7 +677,7 @@ hr{
 }
 
 .square1{
-    background-color: #F29D35;
+    background-color: #EFC334;
 }
 
 .immg1{
@@ -736,7 +736,7 @@ hr{
 }
 
 .square3{
-    background-color: #F29D35;
+    background-color: #EFC334;
 }
 
 .test3{
@@ -804,7 +804,7 @@ hr{
     grid-template-rows: 32.12vw 16.06vw;
     height: 48.19vw;
     width: 80vw;
-    background-color: #F29D35;
+    background-color: #EFC334;
     margin-left: 35px;
     border-radius:30px;
     box-shadow: 10px 10px 15px gray;
@@ -916,7 +916,7 @@ hr{
 
 .kontour1, .kontour2, .kontour3, .kontour4, .kontour5
 {
-    background-color: #F29D35;
+    background-color: #EFC334;
     border-radius: 30px;
     width: 22.5vw;
     height: 29vw
@@ -1165,7 +1165,7 @@ hr{
 .karri2{
     width: 70vw;
     height: 31.57vw;
-    background: #F29D35;
+    background: #EFC334;
 }
 .taper2{
     display: flex;
@@ -1207,7 +1207,7 @@ hr{
 .karri4{
     width: 70vw;
     height: 31.57vw;
-    background: #F29D35;
+    background: #EFC334;
 }
 .taper4{
     display: flex;
@@ -1491,7 +1491,7 @@ hr{
     border-radius: 30px;
 }
 .bloc3:hover{
-    border : #F29D35 10px solid;
+    border : #EFC334 10px solid;
     border-radius: 30px;
     transition: 1s;
 }
@@ -1509,7 +1509,7 @@ hr{
 }
 
 .bloc6:hover{
-    border : #F29D35 10px solid;
+    border : #EFC334 10px solid;
     border-radius: 30px;
     transition: 1s;
 }
@@ -1521,13 +1521,13 @@ hr{
 }
 
 .bloc8:hover{
-    border : #F29D35 10px solid;
+    border : #EFC334 10px solid;
     border-radius: 30px;
     transition: 1s;
 }
 
 .bloc9:hover{
-    border : #F29D35 10px solid;
+    border : #EFC334 10px solid;
     border-radius: 30px;
     transition: 1s;
 }
