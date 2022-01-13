@@ -408,7 +408,7 @@ form
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4vw;
+    margin-top: 8vw;
     height: 2.5vw;
     width: 10vw;
     background-color: wheat;
@@ -739,7 +739,7 @@ hr{
 }
 .texte10>p, .texte11>p
 {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
 }
 .texte10>h1, .texte11>h1
 {
@@ -761,13 +761,12 @@ hr{
     justify-content: center;
     padding-top: 5%;
 }
-
-.tiitle1{
+.tiitle1, .tiitle2, .tiitle3, .tiitle4, .tiitle5
+{
     text-align: center;
     padding: 2vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: bold;
-    
 }
 .pics1, .pics2, .pics3, .pics4, .pics5
 {
@@ -787,16 +786,13 @@ hr{
 
 .blabla1, .blabla2, .blabla3, .blabla4, .blabla5
 {
-    font-size: 1.1vw;
+    font-size: 0.7vw;
 }
 
 .mouv2{
     display: flex;
     justify-content: center;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
+    width: 90%;
 }
 
 .chacal1{
@@ -808,14 +804,6 @@ hr{
 
 
 /* 2eme recette */
-
-.tiitle2{
-    text-align: center;
-    padding: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    
-}
 
 .mouv3{
     display: flex;
@@ -831,13 +819,6 @@ hr{
     margin-top: 10%;
 }
 
-.kontour2{
-    background-color: #F29D35;
-    border-radius: 30px;
-    padding: 20px 0px 20px 0px;
-    width: 22.5vw;
-}
-
 .chacal2{
     display: flex;
     justify-content: center;
@@ -845,21 +826,6 @@ hr{
 
 
 /* 3eme recette */
-
-.rec3{
-    width: 25vw;
-    height: 75vh;
-    background-color: #26A699;
-    border-radius: 30px;
-}
-
-.tiitle3{
-    text-align: center;
-    padding: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    
-}
 
 .mouv5{
     display: flex;
@@ -875,27 +841,12 @@ hr{
     margin-top: 10%;
 }
 
-.kontour3{
-    background-color: #F29D35;
-    border-radius: 30px;
-    padding: 20px 0px 20px 0px;
-    width: 22.5vw;
-}
-
 .chacal3{
     display: flex;
     justify-content: center;
 }
 
 /* 4eme recette */
-
-.tiitle4{
-    text-align: center;
-    padding: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    
-}
 
 .mouv7{
     display: flex;
@@ -910,28 +861,12 @@ hr{
     margin-right: 10%;
     margin-top: 10%;
 }
-
-.kontour4{
-    background-color: #F29D35;
-    border-radius: 30px;
-    padding: 20px 0px 20px 0px;
-    width: 22.5vw;
-}
-
 .chacal4{
     display: flex;
     justify-content: center;
 }
 
 /* 5eme recette */
-
-.tiitle5{
-    text-align: center;
-    padding: 30px;
-    font-size: 30px;
-    font-weight: bold;
-    
-}
 
 .mouv9{
     display: flex;
@@ -945,13 +880,6 @@ hr{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
-}
-
-.kontour5{
-    background-color: #F29D35;
-    border-radius: 30px;
-    padding: 20px 0px 20px 0px;
-    width: 22.5vw;
 }
 
 .chacal5{

@@ -824,7 +824,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5vw;
+    margin-top: 2vw;
     margin-left: 3.5vw;
     height: 3.5vw;
     width: 14vw;
@@ -847,7 +847,7 @@ hr{
 }
 .texte10>p, .texte11>p
 {
-    font-size: 2.75vw;
+    font-size: 2.1vw;
 }
 .texte10>h1, .texte11>h1
 {
@@ -864,7 +864,7 @@ hr{
 /* Alimentation : Recette */
 
 .connexion1{
-    display: flex;
+    display: block;
     gap: 5vw;
     justify-content: center;
     padding-top: 5%;
@@ -909,13 +909,13 @@ hr{
 .mouv2{
     display: flex;
     justify-content: center;
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
     margin-right: 10%;
     margin-top: 10%;
 }
 
-.kontour1{
+.kontour1, .kontour2, .kontour3, .kontour4, .kontour5
+{
     background-color: #F29D35;
     border-radius: 30px;
     width: 22.5vw;
@@ -965,14 +965,6 @@ hr{
     margin-right: 10%;
     margin-top: 10%;
 }
-
-.kontour2{
-    background-color: #F29D35;
-    border-radius: 30px;
-    padding: 20px 0px 20px 0px;
-    width: 22.5vw;
-}
-
 .chacal2{
     display: flex;
     justify-content: center;
@@ -1013,13 +1005,6 @@ hr{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
-}
-
-.kontour3{
-    background-color: #F29D35;
-    border-radius: 30px;
-    padding: 20px 0px 20px 0px;
-    width: 22.5vw;
 }
 
 .chacal3{
@@ -1063,13 +1048,6 @@ hr{
     margin-top: 10%;
 }
 
-.kontour4{
-    background-color: #F29D35;
-    border-radius: 30px;
-    padding: 20px 0px 20px 0px;
-    width: 22.5vw;
-}
-
 .chacal4{
     display: flex;
     justify-content: center;
@@ -1111,20 +1089,13 @@ hr{
     margin-top: 10%;
 }
 
-.kontour5{
-    background-color: #F29D35;
-    border-radius: 30px;
-    padding: 20px 0px 20px 0px;
-    width: 22.5vw;
-}
-
 .chacal5{
     display: flex;
     justify-content: center;
 }
 
 .connexion2{
-    display: flex;
+    display: block;
     gap: 5vw;
     justify-content: center;
     padding-top: 5%;
@@ -1678,5 +1649,5 @@ hr{
 }
 .imaag3.pdm
 {
-    background-image: url("../img/anastase-maragos-7kEpUPB8vNk-unsplash.jpg");
+    background-image: url("../img/anastase-maragos-7kEpUPB8vNk-unsplash(1).jpg");
 }
