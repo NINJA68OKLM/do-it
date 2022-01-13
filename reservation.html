@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-T.css" media="screen and (min-width:680px)">
+    <link rel="stylesheet" href="styles/style-O.css" media="screen and (min-width:1200px)">
+    <link rel="stylesheet" href="styles/reservation_background.css">
+    <link rel="stylesheet" href="styles/reservation_background_O.css" media="screen and (min-width:1200px)">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <title>Do It : Réservation</title>
+</head>
+<body>
+    <!-- Menu -->
+    <header>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        <div class="flexcenter">
+            <div class="logo"></div>
+        </div>
+        <ul class="wrapper">
+            <li>
+                <a href="index.html">Accueil</a>
+            </li>
+            <li>
+                <a href="agence.html">L'agence</a>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="agence_equipe.html">L'équipe</a>
+                    </li>
+                    <li>
+                        <a href="agence_partenaire.html">Partenaires</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="exercice.html">Exercices</a>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="cardio.html">Cardio</a>
+                    </li>
+                    <li>
+                        <a href="musculation.html">Musculation</a>
+                    </li>
+                    <li>
+                        <a href="pdm.html">Prise de masse</a>
+                    </li>
+                    <li>
+                        <a href="pdp.html">Perte de poids</a>
+                    </li>
+                    <li>
+                        <a href="etirement.html">Etirements</a>
+                    </li>
+                    <li>
+                        <a href="equilibre.html">Equilibre</a>
+                    </li>
+                    <li>
+                        <a href="domicile.html">Domicile</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="alimentation.html">Alimentation</a>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="recette.html">Nos recettes</a>
+                    </li>
+                    <li>
+                        <a href="shaker.html">Shaker</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="reservation.html">Réservation</a>
+            </li>
+        </ul>
+    </header>
+    <!-- Section Réservation -->
+    <div class="contact" id="contact">
+        <h1>Si vous voulez réservez vos séances c’est par ici que ça se passe</h1>
+        <div class="flex">
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <form>
+                <input type="text" placeholder="Nom" class="input1 padding11">
+                <input type="text" placeholder="Email" class="input1 padding2 padding11"><br>
+                <input type="text" placeholder="Téléphone" class="input1 padding11">
+                <input type="text" placeholder="Adresse" class="input1 padding11"><br>
+                <input type="text" placeholder="Objet" class="input2 padding11"><br>
+                <input type="textarea" placeholder="Rédigez votre message ici..." class="input2 padding11 textarea"><br>
+                <input type="checkbox"> <span style="color: white;">J'autorise "Do It" à utiliser ces
+                    données dans des opérations futures</span> <br><br>
+                <input type="submit" value="Envoyer" class="submit">
+                <div class="filtre3"></div>
+                <br>
+            </form>
+        </div>
+    </div>
+    <!-- Bas de page -->
+    <footer class="reservationfoot">
+        <div class="flexcenter">Do It</div>
+        <div class="flexcenter">03 89 65 45 78</div>
+        <div class="flexcenter">61 Rue Albert Camus</div>
+        <div class="flexcenter">do-it.68@gmail.com</div>
+        <div class="flexcenter">© Copyright</div>
+    </footer>
+    <!-- Script -->
+    <script src="js/script.js"></script>
+    <script src="js/script-map.js"></script>
+</body>
+
+</html>
