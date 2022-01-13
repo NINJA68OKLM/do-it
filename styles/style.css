@@ -457,8 +457,8 @@ input[type=checkbox]
     width: 26.67vw;
     border-top-left-radius:30px;
     border-bottom-left-radius:30px;
-    background-image: url("../img/chien.jpg");
-    background-size: 115%;
+    background-image: url("../img/agence2.jpg");
+    background-size: 100%;
     grid-row: span 2;
 }
 
@@ -495,8 +495,8 @@ input[type=checkbox]
     width: 26.67vw;
     border-top-right-radius:30px;
     border-bottom-right-radius:30px;
-    background-image: url("../img/chien.jpg");
-    background-size: 115%;
+    background-image: url("../img/etchebest1.jpg");
+    background-size: 100%;
     grid-row: span 2;
 }
 .boutton2{
@@ -731,7 +731,7 @@ hr{
 }
 
 .immg3{
-    background-image: url("../img/johncena1.jpg");
+    background-image: url("../img/etchebest.jpg");
     background-size: 100%;
 }
 
@@ -871,11 +871,14 @@ hr{
 }
 
 
-.rec1{
+.rec1, .rec2, .rec3, .rec4, .rec5
+{
     width: 25vw;
-    height: 75vh;
+    height: 36.23vw;
     background-color: #26A699;
     border-radius: 30px;
+    display: grid;
+    grid-template-rows: 6.63vw 29.6vw;
 }
 
 .tiitle1{
@@ -915,8 +918,8 @@ hr{
 .kontour1{
     background-color: #F29D35;
     border-radius: 30px;
-    padding: 20px 0px 20px 0px;
     width: 22.5vw;
+    height: 29vw
 }
 
 .chacal1{
@@ -928,13 +931,6 @@ hr{
 
 
 /* 2eme recette */
-
-.rec2{
-    width: 25vw;
-    height: 75vh;
-    background-color: #26A699;
-    border-radius: 30px;
-}
 
 .tiitle2{
     text-align: center;
@@ -985,13 +981,6 @@ hr{
 
 /* 3eme recette */
 
-.rec3{
-    width: 25vw;
-    height: 75vh;
-    background-color: #26A699;
-    border-radius: 30px;
-}
-
 .tiitle3{
     text-align: center;
     padding: 30px;
@@ -1040,13 +1029,6 @@ hr{
 
 /* 4eme recette */
 
-.rec4{
-    width: 25vw;
-    height: 75vh;
-    background-color: #26A699;
-    border-radius: 30px;
-}
-
 .tiitle4{
     text-align: center;
     padding: 30px;
@@ -1094,13 +1076,6 @@ hr{
 }
 
 /* 5eme recette */
-
-.rec5{
-    width: 25vw;
-    height: 75vh;
-    background-color: #26A699;
-    border-radius: 30px;
-}
 
 .tiitle5{
     text-align: center;
@@ -1158,15 +1133,16 @@ hr{
 
 /* Alimentation : Shakers */
 
+.yes2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+}
 .titlee{
     padding: 20px;
     background-image: url("../img/water.jpg");
     background-size: 100%;
-}
-.yes{
-    display: flex;
-    justify-content: center;
-    font-size: 45px;
 }
 
 /* 1er shaker */
@@ -1189,14 +1165,19 @@ hr{
     display: flex;
     justify-content: center;
 }
-.xtx1{
+.high1, .high2, .high3, .high4
+{
+    font-size: 1.75vw;
+}
+.xtx1, .xtx2, .xtx3, .xtx4
+{
     text-align: center;
     width: 60vw;
-    padding-top: 40px;
 }
-.sin1{
-    font-size: 25px;
-    margin-top: 100px;
+.sin1, .sin2, .sin3, .sin4
+{
+    font-size: 1.5vw;
+    margin-top: 3vw;
 }
 
 /* 2eme shaker */
@@ -1219,15 +1200,6 @@ hr{
     display: flex;
     justify-content: center;
 }
-.xtx2{
-    text-align: center;
-    width: 60vw;
-    padding-top: 40px;
-}
-.sin2{
-    font-size: 25px;
-    margin-top: 100px;
-}
 
 /* 3eme shaker */
 
@@ -1248,15 +1220,6 @@ hr{
 .taper3{
     display: flex;
     justify-content: center;
-}
-.xtx3{
-    text-align: center;
-    width: 60vw;
-    padding-top: 40px;
-}
-.sin3{
-    font-size: 25px;
-    margin-top: 100px;
 }
 
 /* 4eme shaker */
@@ -1279,17 +1242,6 @@ hr{
     display: flex;
     justify-content: center;
 }
-.xtx4{
-    text-align: center;
-    width: 60vw;
-    padding-top: 40px;
-}
-.sin4{
-    font-size: 25px;
-    margin-top: 100px;
-}
-
-
 
 /* Exercice */
 
@@ -1689,4 +1641,42 @@ hr{
 .grid2>.lien1>p, .grid2>.lien2>p, .grid2>.lien3>p
 {
     font-size: 1.5vw;
+}
+
+/* Exercice : Musculation */
+
+.imaag1.musc, .imaag3.musc
+{
+    background-size: 105%;
+}
+.imaag1.musc
+{
+    background-image: url("../img/damir-spanic-Cs73R4ZO50E-unsplash.jpg");
+}
+.imaag2.musc
+{
+    background-image: url("../img/alexander-redl-qo1pyCD02t4-unsplash.jpg");
+}
+.imaag3.musc
+{
+    background-image: url("../img/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg");
+}
+
+/* Exercice : Prise de masse */
+
+.imaag1.musc, .imaag3.musc
+{
+    background-size: 105%;
+}
+.imaag1.pdm
+{
+    background-image: url("../img/daniel-apodaca-WdoQio6HPVA-unsplash.jpg");
+}
+.imaag2.pdm
+{
+    background-image: url("../img/sam-moqadam-Z4Q9KHw9ofE-unsplash.jpg");
+}
+.imaag3.pdm
+{
+    background-image: url("../img/anastase-maragos-7kEpUPB8vNk-unsplash.jpg");
 }

@@ -371,11 +371,6 @@ form
 .image2{
     height: 100%;
     width: 15vw;
-    border-top-left-radius:30px;
-    border-bottom-left-radius:30px;
-    background-image: url("../img/chien.jpg");
-    background-size: 115%;
-    grid-row: span 2;
 }
 .texte{
     height: 14.04vw;
@@ -408,11 +403,6 @@ form
 .image3{
     height: 100%;
     width: 15vw;
-    border-top-right-radius:30px;
-    border-bottom-right-radius:30px;
-    background-image: url("../img/chien.jpg");
-    background-size: 115%;
-    grid-row: span 2;
 }
 .boutton2{
     display: flex;
@@ -460,7 +450,7 @@ hr{
 }
 .ligne2{
     display: flex;
-    margin-top: auto;
+    margin-left: 0px;
 }
 .photo1, .photo2, .photo3, .photo4
 {
@@ -772,28 +762,22 @@ hr{
     padding-top: 5%;
 }
 
-
-.rec1{
-    width: 25vw;
-    height: 75vh;
-    background-color: #26A699;
-    border-radius: 30px;
-}
-
 .tiitle1{
     text-align: center;
-    padding: 30px;
-    font-size: 30px;
+    padding: 2vw;
+    font-size: 2vw;
     font-weight: bold;
     
 }
-
-.pics1{
+.pics1, .pics2, .pics3, .pics4, .pics5
+{
     width: 20vw;
-    height: 25vh;
-    background-image: url("../img/tomate.jpg");
+    height: 12.12vw;
     background-size: 100%;
     margin-top: 5%;
+}
+.pics1{
+    background-image: url("../img/tomate.jpg");
 }
 
 .mouv1{
@@ -801,8 +785,9 @@ hr{
     justify-content: center;
 }
 
-.blabla1{
-    font-size: 25px;
+.blabla1, .blabla2, .blabla3, .blabla4, .blabla5
+{
+    font-size: 1.1vw;
 }
 
 .mouv2{
@@ -812,13 +797,6 @@ hr{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
-}
-
-.kontour1{
-    background-color: #F29D35;
-    border-radius: 30px;
-    padding: 20px 0px 20px 0px;
-    width: 22.5vw;
 }
 
 .chacal1{
@@ -831,13 +809,6 @@ hr{
 
 /* 2eme recette */
 
-.rec2{
-    width: 25vw;
-    height: 75vh;
-    background-color: #26A699;
-    border-radius: 30px;
-}
-
 .tiitle2{
     text-align: center;
     padding: 30px;
@@ -846,21 +817,9 @@ hr{
     
 }
 
-.pics2{
-    width: 20vw;
-    height: 25vh;
-    background-image: url("../img/tomate.jpg");
-    background-size: 100%;
-    margin-top: 5%;
-}
-
 .mouv3{
     display: flex;
     justify-content: center;
-}
-
-.blabla2{
-    font-size: 25px;
 }
 
 .mouv4{
@@ -902,21 +861,9 @@ hr{
     
 }
 
-.pics3{
-    width: 20vw;
-    height: 25vh;
-    background-image: url("../img/tomate.jpg");
-    background-size: 100%;
-    margin-top: 5%;
-}
-
 .mouv5{
     display: flex;
     justify-content: center;
-}
-
-.blabla3{
-    font-size: 25px;
 }
 
 .mouv6{
@@ -942,13 +889,6 @@ hr{
 
 /* 4eme recette */
 
-.rec4{
-    width: 25vw;
-    height: 75vh;
-    background-color: #26A699;
-    border-radius: 30px;
-}
-
 .tiitle4{
     text-align: center;
     padding: 30px;
@@ -957,21 +897,9 @@ hr{
     
 }
 
-.pics4{
-    width: 20vw;
-    height: 25vh;
-    background-image: url("../img/tomate.jpg");
-    background-size: 100%;
-    margin-top: 5%;
-}
-
 .mouv7{
     display: flex;
     justify-content: center;
-}
-
-.blabla4{
-    font-size: 25px;
 }
 
 .mouv8{
@@ -997,13 +925,6 @@ hr{
 
 /* 5eme recette */
 
-.rec5{
-    width: 25vw;
-    height: 75vh;
-    background-color: #26A699;
-    border-radius: 30px;
-}
-
 .tiitle5{
     text-align: center;
     padding: 30px;
@@ -1012,21 +933,9 @@ hr{
     
 }
 
-.pics5{
-    width: 20vw;
-    height: 25vh;
-    background-image: url("../img/tomate.jpg");
-    background-size: 100%;
-    margin-top: 5%;
-}
-
 .mouv9{
     display: flex;
     justify-content: center;
-}
-
-.blabla5{
-    font-size: 25px;
 }
 
 .mouv10{
@@ -1060,7 +969,114 @@ hr{
 
 /* Alimentation : Shakers */
 
+.yes2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+.titlee{
+    padding: 20px;
+    background-image: url("../img/water.jpg");
+    background-size: 100%;
+}
 
+/* 1er shaker */
+
+.shaker1{
+    display: flex;
+}
+.pik1{
+    background-image:url("../img/bottle.jpg");
+    width: 30vw;
+    height: 31.57vw;
+    background-size:104%;
+}
+.karri1{
+    width: 70vw;
+    height: 31.57vw;
+    background: #26A699;
+}
+.taper1{
+    display: flex;
+    justify-content: center;
+}
+.high1, .high2, .high3, .high4
+{
+    font-size: 1.75vw;
+}
+.xtx1, .xtx2, .xtx3, .xtx4
+{
+    padding-top: 40px;
+}
+.sin1, .sin2, .sin3, .sin4
+{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+}
+
+/* 2eme shaker */
+
+.shaker2{
+    display: flex;
+}
+.pik2{
+    background-image:url("../img/phone.jpg");
+    width: 30vw;
+    height: 31.57vw;
+    background-size:100%;
+}
+.karri2{
+    width: 70vw;
+    height: 31.57vw;
+    background: #F29D35;
+}
+.taper2{
+    display: flex;
+    justify-content: center;
+}
+
+/* 3eme shaker */
+
+.shaker3{
+    display: flex;
+}
+.pik3{
+    background-image:url("../img/shirt.jpg");
+    width: 30vw;
+    height: 31.57vw;
+    background-size:100%;
+}
+.karri3{
+    width: 70vw;
+    height: 31.57vw;
+    background: #26A699;
+}
+.taper3{
+    display: flex;
+    justify-content: center;
+}
+
+/* 4eme shaker */
+
+.shaker4{
+    display: flex;
+}
+.pik4{
+    background-image:url("../img/visite.jpg");
+    width: 30vw;
+    height: 31.57vw;
+    background-size:104%;
+}
+.karri4{
+    width: 70vw;
+    height: 31.57vw;
+    background: #F29D35;
+}
+.taper4{
+    display: flex;
+    justify-content: center;
+}
 
 /* Exercice */
 
