@@ -14,7 +14,7 @@ function imgdroite(){
 window.onload = () => {
     var diapo = document.querySelector(".diapo");
     elements = document.querySelector(".imgdiapo");
-    slides = document.querySelectorAll(".imgdiapo>img");
+    slides = document.querySelectorAll(".imgdiapo>.image");
     slideWidth = diapo.getBoundingClientRect().width;
     document.querySelector(".rondd.droitee").addEventListener("click", slideNext);;
     document.querySelector(".rondd.gauchee").addEventListener("click", slidePrev);
