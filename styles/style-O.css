@@ -512,6 +512,8 @@ hr{
 }
 .connexion2{
     display: flex;
+    justify-content: center;
+    gap: 5vw;
 }
 
 /* Alimentation : Shakers */

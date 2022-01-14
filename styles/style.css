@@ -830,6 +830,7 @@ hr{
     height: 32.32vh;
     background-size: 100%;
     margin-top: 5%;
+    margin-left: 0.95vw;
 }
 .pics1
 {
@@ -841,10 +842,11 @@ hr{
 }
 .blabla1, .blabla2, .blabla3, .blabla4, .blabla5
 {
-    font-size: 2.5vw;
+    font-size: 2.1vw;
 }
 .blabla1>ul, .blabla2>ul, .blabla3>ul, .blabla4>ul, .blabla5>ul
 {
+    margin-top: 0px;
     padding-left: 15px;
 }
 .mouv2{
@@ -861,7 +863,7 @@ hr{
     width: 72.02vw;
     height: 93.6vw
 }
-.chacal1, .chacal6, .chacal4, .chacal5, .chacal2, .chacal4, .mouv7, .mouv8, .mouv9, .mouv10, .mouv11, .mouv12
+.chacal1, .chacal6, .chacal4, .chacal5, .chacal2, .chacal3, .mouv7, .mouv8, .mouv9, .mouv10, .mouv11, .mouv12
 {
     display: flex;
     justify-content: center;
