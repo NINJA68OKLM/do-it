@@ -512,11 +512,13 @@ hr{
     width: 75vw;
     margin-bottom: 70px;
 }
-.ligne1{
+.ligne1, .ligne2{
+    gap: 3vw;
     display: block;
+}
+.ligne1{
     margin-top: 30px;
     margin-left: 10vw;
-    gap: 3vw;
     margin-bottom: 10px;
 }
 .carre1, .carre2, .carre3, .carre4
@@ -534,11 +536,9 @@ hr{
     margin-top: 10px;
 }
 .ligne2{
-    display: block;
     justify-content: center;
     margin: 30px;
     margin-top: 10px;
-    gap: 3vw;
 }
 .photo1, .photo2, .photo3, .photo4
 {
@@ -563,9 +563,6 @@ hr{
     background-image: url("../img/albin.png");
     background-size: 112%;
 }
-
-/* Osman */
-
 .contenu1, .contenu2, .contenu3, .contenu4
 {
     display: grid;
@@ -721,35 +718,38 @@ hr{
     background-size: 100%;
     grid-row: span 2;
 }
-.bloc10
+.bloc10, .bloc11
 {
     display: grid;
-    grid-template-columns: 26.67vw 53.33vw;
     grid-template-rows: 32.12vw 16.06vw;
+    height: 48.19vw;
+    width: 80vw;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px gray;
+
+}
+.bloc10
+{
+    grid-template-columns: 26.67vw 53.33vw;
     height: 48.19vw;
     width: 80vw;
     margin-right: 300px;
     background-color: #26A699;
-    border-radius: 30px;
-    box-shadow: 10px 10px 15px gray;
 }
 .bloc11
 {
     display: grid;
     grid-template-columns: 53.33vw 26.67vw;
-    grid-template-rows: 32.12vw 16.06vw;
-    height: 48.19vw;
-    width: 80vw;
     background-color: #EFC334;
     margin-left: 35px;
     border-radius:30px;
-    box-shadow: 10px 10px 15px gray;
 }
 .boutton10, .boutton11
 {
     background: white;
     height: 3.5vw;
     width: 14vw;
+    border-radius: 15px;
 }
 .boutton10{
     display: flex;
@@ -768,10 +768,12 @@ hr{
 .texte10
 {
     height: 14.04vw;
+    margin-left: 5px;
+}
+.texte10, .texte11{
     width: 50vw;
     padding: 5px;
     font-size: 2.75vw;
-    margin-left: 5px;
 }
 .texte10>p, .texte10>h1{
     margin-left: 10px;
@@ -790,9 +792,6 @@ hr{
 .texte11
 {
     height: 100%;
-    width: 50vw;
-    padding: 5px;
-    font-size: 2.75vw;
 }
 
 /* Alimentation : Recette */
@@ -827,7 +826,7 @@ hr{
 .pics1, .pics2, .pics3, .pics4, .pics5
 {
     width: 64.01vw;
-    height: 32.32vh;
+    height: 32.32vw;
     background-size: 100%;
     margin-top: 5%;
     margin-left: 0.95vw;
@@ -836,7 +835,7 @@ hr{
 {
     background-image: url("../img/lasagne-epinard-healthy-saumon.png");
 }
-.mouv1{
+.mouv1, .mouv2, .mouv3, .mouv4, .mouv5{
     display: flex;
     justify-content: center;
 }
@@ -848,13 +847,6 @@ hr{
 {
     margin-top: 0px;
     padding-left: 15px;
-}
-.mouv2{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-right: 10%;
-    margin-top: 10%;
 }
 .kontour1, .kontour2, .kontour3, .kontour4, .kontour5
 {
@@ -874,7 +866,7 @@ hr{
 .pics2{
     background-image: url("../img/Gaufres.png");
 }
-.mouv4{
+.mouv2, .mouv4, .mouv6, .mouv8, .mouv10{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
@@ -898,23 +890,11 @@ hr{
 .pics4{
     background-image: url("../img/Beignets-de-courgettes-et-feta-healthy.png");
 }
-.mouv8{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-}
 
 /* 5eme recette */
 
 .pics5{
     background-image: url("../img/soupe-oignon-healthy.png");
-}
-.mouv10{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
 }
 .connexion2{
     display: block;
@@ -935,24 +915,42 @@ hr{
     background-image: url("../img/water.jpg");
     background-size: 100%;
 }
-
-/* 1er shaker */
-
-.shaker1{
+.shaker1, .shaker2, .shaker3, .shaker4{
     display: flex;
+}
+.pik1, .pik2, .pik3, .pik4{
+    width: 30vw;
+    height: 31.57vw;
+}
+.pik1, .pik4{
+    background-size:104%;
+}
+.pik2, .pik3{
+    background-size:100%;
 }
 .pik1{
     background-image:url("../img/bottle.jpg");
-    width: 30vw;
-    height: 31.57vw;
-    background-size:104%;
 }
-.karri1{
+.pik2{
+    background-image:url("../img/phone.jpg");
+}
+.pik3{
+    background-image:url("../img/shirt.jpg");
+}
+.pik4{
+    background-image:url("../img/visite.jpg");
+}
+.karri1, .karri2, .karri3, .karri4{
     width: 70vw;
     height: 31.57vw;
+}
+.karri1, .karri3{
     background: #26A699;
 }
-.taper1{
+.karri2, .karri4{
+    background: #EFC334;
+}
+.taper1, .taper2, .taper3, .taper4{
     display: flex;
     justify-content: center;
 }
@@ -971,69 +969,6 @@ hr{
     margin-top: 3vw;
 }
 
-/* 2eme shaker */
-
-.shaker2{
-    display: flex;
-}
-.pik2{
-    background-image:url("../img/phone.jpg");
-    width: 30vw;
-    height: 31.57vw;
-    background-size:100%;
-}
-.karri2{
-    width: 70vw;
-    height: 31.57vw;
-    background: #EFC334;
-}
-.taper2{
-    display: flex;
-    justify-content: center;
-}
-
-/* 3eme shaker */
-
-.shaker3{
-    display: flex;
-}
-.pik3{
-    background-image:url("../img/shirt.jpg");
-    width: 30vw;
-    height: 31.57vw;
-    background-size:100%;
-}
-.karri3{
-    width: 70vw;
-    height: 31.57vw;
-    background: #26A699;
-}
-.taper3{
-    display: flex;
-    justify-content: center;
-}
-
-/* 4eme shaker */
-
-.shaker4{
-    display: flex;
-}
-.pik4{
-    background-image:url("../img/visite.jpg");
-    width: 30vw;
-    height: 31.57vw;
-    background-size:104%;
-}
-.karri4{
-    width: 70vw;
-    height: 31.57vw;
-    background: #EFC334;
-}
-.taper4{
-    display: flex;
-    justify-content: center;
-}
-
 /* Exercice */
 
 .aa
@@ -1041,275 +976,133 @@ hr{
     color: white;
     font-size: 5vw;
 }
-.banderole3{
+.banderole3, .banderole4{
     display: block;
     justify-content: center;
     margin-top: 5vw;
-}
-.banderole4{
-    display: block;
-    margin-top: 5vw;
-    justify-content: center;
-}
-.filtre3, .filtre4, .filtre5, .filtre6, .filtre7, .filtre8,.filtre9, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .bloc3, .bloc4, .bloc5, .bloc6, .bloc7, .bloc8, .bloc9
-{
-    width: 80vw;
-    height: 60.15vw;
 }
 .bloc3, .bloc4, .bloc5, .bloc6, .bloc7, .bloc8, .bloc9
 {
+    width: 80vw;
+    height: 60.3vw;
     margin-left: 5vw;
+    opacity: 0;
+    border : transparent 10px solid;
+    border-radius: 30px;
+    animation: pop 2s;
 }
 .image6, .image7, .image8, .image9, .image10, .image11, .image12
 {
-    transform: translateY(-60.15vw);
-}
-.image6{
-    background-image: url("../img/cardio.jpg");
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    height: 100%;
     background-size: 115%;
     border-radius: 20px;
 }
-.filtre3{
-    left: 15vw;
+.image6{
+    background-image: url("../img/cardio.jpg");
+}
+.filtre3, .filtre4, .filtre6, .filtre7, .filtre8, .filtre9{
     opacity: 0.4;
-    background-color:black;
+}
+.filtre5{
+    opacity: 0.2;
+}
+.filtre9{
+    background-color: black;
     border-radius: 20px;
 }
 .image7{
     background-image: url("../img/musculation.jpg");
-    background-size: 115%;
-    border-radius: 20px;
-}
-.filtre4{
-    opacity: 0.4;
-    background-color:black;
-    border-radius: 20px;
 }
 .image8{
     background-image: url("../img/masse.jpg");
-    background-size: 135%;
-    border-radius: 20px;
-}
-.filtre5{
-    opacity: 0.2;
-    background-color:black;
-    border-radius: 20px;
 }
 .image9{
     background-image: url("../img/poids.jpg");
-    background-size: 135%;
-    border-radius: 20px;
-}
-.filtre6{
-    position: absolute;
-    opacity: 0.4;
-    background-color:black;
-    border-radius: 20px;
 }
 .image10{
     background-image: url("../img/etirement.jpg");
-    background-size: 115%;
-    border-radius: 20px;
-}
-.filtre7{
-    opacity: 0.4;
-    background-color: black;
-    border-radius: 20px;
 }
 .image11{
     background-image: url("../img/equilibre.jpg");
-    background-size: 100%;
-    border-radius: 20px;
 }
-.filtre8{
-    opacity: 0.4;
-    background-color: black;
-    border-radius: 20px;
-}
-
 .image12{
     background-image:url("../img/domicile.jpg");
-    background-size: 115%;
-    border-radius: 20px;
-}
-
-.filtre9{
-    opacity: 0.4;
-    background-color: black;
-    border-radius: 20px;
 }
 .texte3, .texte4, .texte5, .texte6, .texte7, .texte8, .texte9
 {
-    position: absolute;
-    z-index: 15;
     color: white;
     font-size: 6vw;
-    width: 75vw;
     text-align: center;
+    align-items: center;
 }
-.texte7, .texte8, .texte9
+.joi, .boutton3, .boutton4, .boutton5, .boutton6, .boutton7, .boutton8, .boutton9
 {
-    top: 33.5vw;
+    display: flex;
+    justify-content: center;
 }
-.texte3{
-    top: 30vw;
-}
-.texte4{
-    top: 95.3vw;
-}
-.texte5{
-    top: 160vw;
-}
-.texte6{
-    top: 230vw;
-    z-index: 10;
-}
-.texte7{
-    top: 300vw;
-}
-.texte8{
-    top: 365vw;
-}
-.texte9{
-    top: 435vw;
+.joi
+{
+    align-items: center;
 }
 .boutton3, .boutton4, .boutton5, .boutton6, .boutton7, .boutton8, .boutton9
 {
-    width: 62vw;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    left: 10vw;
-}
-.boutton3{
-    top: 62vw;
-    padding : 15px 20px;
-    border : solid 2px white;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-}
-.boutton4{
-    top: 130vw;
-    padding : 15px 20px;
-    border : solid 2px white;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-}
-.boutton5{
-    padding : 15px 20px;
-    border : solid 2px white;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-}
-.boutton6{
-    right: 2.75vw;
-    top: 263vw;
-    padding : 15px 20px;
-    border : solid 2px white;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-}
-
-.boutton7{
-    top: 334.5vw;
-    justify-content: center;
-    padding : 15px 20px;
-    border : solid 2px white;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-}
-
-.boutton8{
-    top: 401vw;
-    justify-content: center;
-    padding : 15px 20px;
-    border : solid 2px white;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-}
-
-.boutton9{
-    top: 467.5vw;
-    justify-content: center;
-    padding : 15px 20px;
+    padding: 15px 20px;
     border : solid 2px white;
     border-radius: 30px;
     color: white;
     font-size: 20px;
 }
 .bloc3{
-    opacity: 0;
-    animation: pop1 2s;
+    opacity: 1;
     animation-delay: 2.2s;
-    border : transparent 10px solid;
-    border-radius: 30px;
 }
-
+.bloc4, .bloc5, .bloc6, .bloc7, .bloc8, .bloc9{
+    opacity: 0;
+}
 .bloc4{
-    opacity: 0;
-    animation: pop2 2s;
     animation-delay: 1.7s;
-    border : transparent 10px solid;
-    border-radius: 30px;
 }
-
 .bloc5{
-    opacity: 0;
-    animation: pop3 2s;
     animation-delay: 2.6s;
-    border : transparent 10px solid;
-    border-radius: 30px;
 }
-
 .bloc6{
-    opacity: 0;
-    animation: pop4 2s;
     animation-delay: 3s;
-    border : transparent 10px solid;
-    border-radius: 30px;
 }
-
 .bloc7{
-    opacity: 0;
-    animation: pop5 2s;
     animation-delay: 1s;
-    border : transparent 10px solid;
-    border-radius: 30px;
 }
-
 .bloc8{
-    opacity: 0;
-    animation: pop6 2s;
-    animation-delay: 2s;
-    border : transparent 10px solid;
-    border-radius: 30px;
-}
 
+    animation-delay: 2s;
+}
 .bloc9{
-    opacity: 0;
-    animation: pop7 2.3s;
+    animation: pop 2.3s;
     animation-delay: 3.2s;
-    border : transparent 10px solid;
+}
+.bloc3:hover, .bloc6:hover, .bloc8:hover, .bloc9:hover, .bloc4:hover, .bloc5:hover, .bloc7:hover
+{
     border-radius: 30px;
+    transition: 1s;
 }
 .bloc3:hover, .bloc6:hover, .bloc8:hover, .bloc9:hover
 {
     border : #EFC334 10px solid;
-    border-radius: 30px;
-    transition: 1s;
 }
-
 .bloc4:hover, .bloc5:hover, .bloc7:hover
 {
     border : #26A699 10px solid;
-    border-radius: 30px;
-    transition: 1s;
+}
+@keyframes pop {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 .filtre3:hover, .filtre4:hover, .filtre5:hover, .filtre6:hover, .filtre7:hover, .filtre8:hover, .filtre9:hover
 {

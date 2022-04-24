@@ -299,7 +299,7 @@ form
 hr{
     width: 50vw;
 }
-.ligne1{
+.ligne1, .ligne2{
     display: flex;
     margin: 30px;
 }
@@ -312,10 +312,6 @@ hr{
 .carre2, .carre4
 {
     margin-top: auto;
-}
-.ligne2{
-    display: flex;
-    margin-left: 0px;
 }
 .photo1, .photo2, .photo3, .photo4
 {
@@ -336,9 +332,6 @@ hr{
 .photo4{
     background-size: 100%;
 }
-
-/* Osman */
-
 .contenu1, .contenu2, .contenu3, .contenu4
 {
     height: 29vw;
@@ -373,8 +366,6 @@ hr{
 
 .txt1, .txt2, .txt3, .txt4
 {
-    text-align: center;
-    width: 60vw;
     padding-top: 40px;
 }
 
@@ -392,8 +383,6 @@ hr{
     grid-template-rows: 18.06vw 9.03vw;
     height: 27.10vw;
     width: 45vw;
-    background-color: #26A699;
-    border-radius: 30px;
 }
 .bloc11
 {
@@ -416,25 +405,14 @@ hr{
     margin-top: 1.9vw;
     margin-left: 2vw;
 }
-.texte10
-{
-    width: 25vw;
-    font-size:1vw;
-    margin-left: 40px;
-}
 .texte10>p, .texte11>p
 {
     font-size: 1.4vw;
 }
-.texte11
-{
-    width: 25vw;
-    font-size:1vw;
-}
 
 /* Alimentation : Recette */
 
-.connexion1{
+.connexion1, .connexion2{
     display: flex;
 }
 .rec1, .rec2, .rec3, .rec4, .rec5
@@ -450,7 +428,6 @@ hr{
 }
 .tiitle1, .tiitle2, .tiitle3, .tiitle4, .tiitle5
 {
-    text-align: center;
     padding: 2vw;
     font-size: 1.5vw;
 }
@@ -474,44 +451,7 @@ hr{
     justify-content: center;
     width: 90%;
 }
-
-/* 2eme recette */
-
-.mouv4{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-}
-
-/* 3eme recette */
-
-.mouv6{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-}
-
-/* 4eme recette */
-
-.mouv8{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-}
-
-/* 5eme recette */
-
-.mouv10{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-}
 .connexion2{
-    display: flex;
     justify-content: center;
     gap: 5vw;
 }
@@ -520,111 +460,23 @@ hr{
 
 .yes2
 {
-    display: flex;
-    justify-content: center;
     font-size: 45px;
-}
-.titlee{
-    padding: 20px;
-    background-image: url("../img/water.jpg");
-    background-size: 100%;
 }
 
 /* 1er shaker */
 
-.shaker1{
-    display: flex;
-}
-.pik1{
-    background-image:url("../img/bottle.jpg");
-    width: 30vw;
-    height: 31.57vw;
-    background-size:104%;
-}
-.karri1{
-    width: 70vw;
-    height: 31.57vw;
-    background: #26A699;
-}
-.taper1{
-    display: flex;
-    justify-content: center;
-}
-.high1, .high2, .high3, .high4
-{
-    font-size: 1.75vw;
-}
 .xtx1, .xtx2, .xtx3, .xtx4
 {
     padding-top: 40px;
 }
-.sin1, .sin2, .sin3, .sin4
-{
-    font-size: 1.5vw;
-    margin-top: 3vw;
-}
-
-/* 2eme shaker */
-
-.shaker2{
-    display: flex;
-}
-.pik2{
-    background-image:url("../img/phone.jpg");
-    width: 30vw;
-    height: 31.57vw;
-    background-size:100%;
-}
-.karri2{
-    width: 70vw;
-    height: 31.57vw;
-    background: #EFC334;
-}
-.taper2{
-    display: flex;
-    justify-content: center;
-}
 
 /* 3eme shaker */
 
-.shaker3{
-    display: flex;
-}
 .pik3{
     background-image:url("../img/shirt.jpg");
     width: 30vw;
     height: 31.57vw;
     background-size:100%;
-}
-.karri3{
-    width: 70vw;
-    height: 31.57vw;
-    background: #26A699;
-}
-.taper3{
-    display: flex;
-    justify-content: center;
-}
-
-/* 4eme shaker */
-
-.shaker4{
-    display: flex;
-}
-.pik4{
-    background-image:url("../img/visite.jpg");
-    width: 30vw;
-    height: 31.57vw;
-    background-size:104%;
-}
-.karri4{
-    width: 70vw;
-    height: 31.57vw;
-    background: #EFC334;
-}
-.taper4{
-    display: flex;
-    justify-content: center;
 }
 
 /* Exercice */
@@ -633,350 +485,93 @@ hr{
 {
     font-size: 1.25vw;
 }
-.banderole3{
+.banderole3, .banderole4{
     display: flex;
+}
+.banderole3{
     justify-content: space-between;
-    margin-top: 5vw;
 }
 .banderole4{
-    display: flex;
     gap: 80px;
-    margin-top: 5vw;
     justify-content: center;
 }
-.filtre3, .filtre4, .filtre5, .filtre6, .filtre7, .filtre8,.filtre9, .bloc3, .bloc4, .bloc5, .bloc6, .bloc7, .bloc8, .bloc9
+.bloc3, .bloc4, .bloc5, .bloc6, .bloc7, .bloc8, .bloc9
 {
-    width: initial;
-    height: initial;
-    margin-left: initial;
-}
-.filtre3, .filtre4, .filtre5, .filtre6, .filtre7, .filtre8,.filtre9
-{
-    position: absolute;
-}
-.image6, .image7, .image8, .image9, .image10, .image11, .image12
-{
+    margin-left: 0px;
     width: 20vw;
     height: 15.03vw;
 }
 .image6, .image7, .image8, .image9, .image10, .image11, .image12
 {
-    position: initial;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    height: 100%;
     transform: translateY(0px);
+    border-radius: 20px;
+}
+.image6, .image7, .image10, .image12{
+    background-size: 115%;
+}
+.image8, .image9{
+    background-size: 135%;
 }
 .image6{
     background-image: url("../img/cardio.jpg");
-    background-size: 115%;
-    border-radius: 20px;
 }
-
-.filtre3{
-    left: 15vw;
-    opacity: 0.4;
-    background-color:black;
-    border-radius: 20px;
-}
-
 .image7{
     background-image: url("../img/musculation.jpg");
-    background-size: 115%;
-    border-radius: 20px;
 }
-
-.filtre4{
-    opacity: 0.4;
-    background-color:black;
-    border-radius: 20px;
-}
-
 .image8{
     background-image: url("../img/masse.jpg");
-    background-size: 135%;
-    border-radius: 20px;
 }
-
-.filtre5{
-    opacity: 0.2;
-    background-color:black;
-    border-radius: 20px;
-}
-
 .image9{
     background-image: url("../img/poids.jpg");
-    background-size: 135%;
-    border-radius: 20px;
 }
-
-.filtre6{
-    position: absolute;
-    opacity: 0.4;
-    background-color:black;
-    border-radius: 20px;
-}
-
 .image10{
     background-image: url("../img/etirement.jpg");
-    background-size: 115%;
-    border-radius: 20px;
 }
-
-.filtre7{
-    opacity: 0.4;
-    background-color: black;
-    border-radius: 20px;
-}
-
 .image11{
     background-image: url("../img/equilibre.jpg");
     background-size: 100%;
-    border-radius: 20px;
 }
-
-.filtre8{
-    opacity: 0.4;
-    background-color: black;
-    border-radius: 20px;
-}
-
 .image12{
     background-image:url("../img/domicile.jpg");
-    background-size: 115%;
-    border-radius: 20px;
 }
-
-.filtre9{
-    opacity: 0.4;
-    background-color: black;
-    border-radius: 20px;
-}
-.texte3, .texte4, .texte5, .texte6, .texte7, .texte8, .texte9
+.texte3, .texte4, .texte5, .texte6, .texte7, .texte8, .texte9, .texte10, .texte11, .texte12
 {
-    position: absolute;
+    position: initial;
+    width: 100%;
+    height: 100%;
     color: white;
     font-size: 1.25vw;
-    width: 19vw;
-    text-align: center;
 }
-.texte3, .texte4, .texte5, .texte6
+.texte10, .texte11
 {
-    top: 12vw;
+    font-size:1vw;
 }
-.texte7, .texte8, .texte9
+.texte10
 {
-    top: 33.5vw;
+    width: 80%;
+    margin-left: 40px;
 }
-.texte3{
-    left : 2vw;
-}
-
-.texte4{
-    left: 28vw;
-}
-
-.texte5{
-    right: 27vw;
-}
-
-.texte6{
-    right: 1vw;
-}
-.texte7{
-    left: 13vw;
-}
-
-.texte8{
-    left: 40vw;
-}
-
-.texte9{
-    right: 14vw;
+.texte11
+{
+    width: 90%;
 }
 .boutton3, .boutton4, .boutton5, .boutton6, .boutton7, .boutton8, .boutton9
 {
-    width: 15vw;
-}
-.boutton3, .boutton4, .boutton5, .boutton6
-{
-    top: 19.03vw;
-}
-.boutton7, .boutton8, .boutton9
-{
-    top: 40.02vw;
-}
-.boutton3{
     display: flex;
-    position: absolute;
-    left: 2.25vw;
     justify-content: center;
-    padding : 15px 20px;
     border : solid 2px white;
     border-radius: 30px;
     color: white;
     font-size: 20px;
-}
-.boutton4{
-    display: flex;
-    position: absolute;
-    left: 28vw;
-    justify-content: center;
-    padding : 15px 20px;
-    border : solid 2px white;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-}
-.boutton5{
-    display: flex;
-    position: absolute;
-    right: 28vw;
-    left: auto;
-    justify-content: center;
-    padding : 15px 20px;
-    border : solid 2px white;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-}
-.boutton6{
-    display: flex;
-    position: absolute;
-    right: 2.25vw;
-    left: auto;
-    justify-content: center;
-    padding : 15px 20px;
-    border : solid 2px white;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-}
-
-.boutton7{
-    display: flex;
-    position: absolute;
-    left: 15.75vw;
-    right: auto;
-    justify-content: center;
-    padding : 15px 20px;
-    border : solid 2px white;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-}
-
-.boutton8{
-    display: flex;
-    position: absolute;
-    left: 41vw;
-    right: auto;
-    justify-content: center;
-    padding : 15px 20px;
-    border : solid 2px white;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-}
-
-.boutton9{
-    display: flex;
-    position: absolute;
-    right: 15.75vw;
-    left: auto;
-    justify-content: center;
-    padding : 15px 20px;
-    border : solid 2px white;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-}
-.bloc3{
-    opacity: 0;
-    animation: pop1 2s;
-    animation-delay: 2.2s;
-    border : transparent 10px solid;
-    border-radius: 30px;
-}
-
-.bloc4{
-    opacity: 0;
-    animation: pop2 2s;
-    animation-delay: 1.7s;
-    border : transparent 10px solid;
-    border-radius: 30px;
-}
-
-.bloc5{
-    opacity: 0;
-    animation: pop3 2s;
-    animation-delay: 2.6s;
-    border : transparent 10px solid;
-    border-radius: 30px;
-}
-
-.bloc6{
-    opacity: 0;
-    animation: pop4 2s;
-    animation-delay: 3s;
-    border : transparent 10px solid;
-    border-radius: 30px;
-}
-
-.bloc7{
-    opacity: 0;
-    animation: pop5 2s;
-    animation-delay: 1s;
-    border : transparent 10px solid;
-    border-radius: 30px;
-}
-
-.bloc8{
-    opacity: 0;
-    animation: pop6 2s;
-    animation-delay: 2s;
-    border : transparent 10px solid;
-    border-radius: 30px;
-}
-
-.bloc9{
-    opacity: 0;
-    animation: pop7 2.3s;
-    animation-delay: 3.2s;
-    border : transparent 10px solid;
-    border-radius: 30px;
-}
-
-@keyframes pop1 {
-    0% { opacity: 0;}
-    100% { opacity: 1;}
-}
-
-@keyframes pop2 {
-    0% { opacity: 0;}
-    100% { opacity: 1;}
-}
-
-@keyframes pop3 {
-    0% { opacity: 0;}
-    100% { opacity: 1;}
-}
-
-@keyframes pop4 {
-    0% { opacity: 0;}
-    100% { opacity: 1;}
-}
-
-@keyframes pop5 {
-    0% { opacity: 0;}
-    100% { opacity: 1;}
-}
-
-@keyframes pop6 {
-    0% { opacity: 0;}
-    100% { opacity: 1;}
-}
-
-@keyframes pop7 {
-    0% { opacity: 0;}
-    100% { opacity: 1;}
+    position: initial;
+    top: 0px;
+    left: 0px;
+    width: 80%;
 }
 .mich
 {
