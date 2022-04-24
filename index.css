@@ -1,0 +1,8 @@
+body
+{
+    background: linear-gradient(45deg, white 25%,
+	#26a699 25%, #26a699 50%, 
+	white 50%, white 75%, 
+	#26a699 75%);
+background-size: 100px 100px;
+}

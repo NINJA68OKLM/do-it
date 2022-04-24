@@ -1,0 +1,318 @@
+body
+{
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+    background-image: url("../img/fond.jpg");
+    background-size: 100%;
+}
+
+/* Section Menu */
+
+header
+{
+    background: yellow;
+    padding: 10px;
+    display: block;
+    height: 38px;
+    padding-bottom: 0px;
+}
+header>svg
+{
+    position: absolute;
+    top: 5px;
+}
+.logo
+{
+    background-image: url("../img/1200px-NBC_logo.svg.webp");
+    background-size: 100%;
+    position: absolute;
+    width: 38.55px;
+    height: 38px;
+    top: 0;
+}
+a
+{
+    text-decoration: none;
+}
+li
+{
+    text-align: center;
+}
+.wrapper
+{
+    margin: 0 auto;
+    padding-left: 0px;
+    margin-right: 5px;
+    margin-top: 38px;
+    display: none;
+}
+header>ul>li>a
+{
+    padding: 10px;
+}
+.wrapper>li
+{
+    margin-top: 10px;
+}
+header>ul>li, header>ul>ul>li{
+    display: block;
+}
+header li a:hover
+{
+    background: red;
+}
+.sub-menu
+{
+    display: none;
+    position: absolute;
+    background: yellow;
+    padding-left: 0px;
+    margin-top: 10px;
+}
+.sub-menu>li
+{
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.flexcenter
+{
+    display: flex;
+    justify-content: center;
+}
+.visible
+{
+    display: initial;
+}
+.taille
+{
+    height: auto;
+    padding-top: 38px;
+}
+
+/* CSS Pour la partie équipe */
+
+.premier{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+hr{
+    border : solid 5px white;
+    width: 50vw;
+    margin-bottom: 70px;
+}
+
+
+.ligne1{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 3vw;
+    margin-bottom: 50px;
+}
+
+
+.carre1{
+    height: 40vh;
+    width: 45vw;
+    background-color: transparent;
+    border-radius: 30px;
+    display: flex;
+    border: solid 3px white;
+}
+
+.carre2{
+    height: 40vh;
+    width: 45vw;
+    background-color: transparent;
+    border-radius: 30px;
+    display: flex;
+    border: solid 3px white;
+}
+
+.carre3{
+    height: 40vh;
+    width: 45vw;
+    background-color: transparent;
+    border-radius: 30px;
+    display: flex;
+    border: solid 3px white;
+}
+
+.carre4{
+    height: 40vh;
+    width: 45vw;
+    background-color: transparent;
+    border-radius: 30px;
+    display: flex;
+    border: solid 3px white;
+}
+
+.ligne2{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 3vw;
+}
+
+.photo1{
+    width: 20vw;
+    height: 40vh;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    background-image: url("../img/osman.png");
+    background-size: 115%;
+}
+
+.photo2{
+    width: 20vw;
+    height: 40vh;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    background-image: url("../img/val.png");
+    background-size: 112%;
+}
+
+.photo3{
+    width: 20vw;
+    height: 40vh;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    background-image: url("../img/mus.png");
+    background-size: 112%;
+}
+
+.photo4{
+    width: 20vw;
+    height: 40vh;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    background-image: url("../img/albin.png");
+    background-size: 112%;
+}
+
+/* Osman */
+
+.contenu1{
+    height: 40vh;
+    width: 25vw;
+}
+
+.nom1{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.osman{
+    width: 12vw;
+    border : 3px solid white;
+    margin-bottom: 50px;
+}
+
+.description1{
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+
+/* Valentin */
+
+.contenu2{
+    height: 40vh;
+    width: 25vw;
+}
+
+.nom2{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.valentin{
+    width: 12vw;
+    border : 3px solid white;
+    margin-bottom: 50px;
+}
+
+.description2{
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+/* Mustafa */
+
+.contenu3{
+    height: 40vh;
+    width: 25vw;
+}
+
+.nom3{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.mustafa{
+    width: 12vw;
+    border : 3px solid white;
+    margin-bottom: 50px;
+}
+
+.description3{
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+/* Albin */
+
+.contenu4{
+    height: 40vh;
+    width: 25vw;
+}
+
+.nom4{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.albin{
+    width: 12vw;
+    border : 3px solid white;
+    margin-bottom: 50px;
+}
+
+.description4{
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+.noir{
+    background-color: black;
+    width: 100vw;
+    height: 100%;
+    opacity: 0.5;
+    position: fixed;
+    z-index: -1;
+    
+}

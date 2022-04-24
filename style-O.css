@@ -1,0 +1,597 @@
+/* Section Menu */
+
+header
+{
+    padding-bottom: 0px;
+    display: flex;
+}
+header>svg
+{
+    display: none;
+}
+li
+{
+    text-align: initial;
+}
+.logo
+{
+    left: 5px;
+}
+.wrapper
+{
+    position: relative;
+    margin: 0;
+    margin-left: auto;
+    margin-top: 0px;
+    display: initial;
+}
+.wrapper>li
+{
+    margin-top: 0px;
+}
+.sub-menu>li>a
+{
+    color: black;
+}
+header>ul>li, header>ul>ul>li{
+    display: inline-block;
+    vertical-align: top;
+}
+header li:hover .sub-menu
+{
+    display: block;
+}
+.sub-menu
+{
+    position: absolute;
+    z-index: 15;
+    background: #EFC334;
+    padding-left: 0px;
+    margin-top: 10px;
+}
+.sub-menu>li
+{
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.sub-menu>li:hover
+{
+    background: #FFFDEF;
+}
+.sub-menu>li>a:hover, header>ul>li>a:hover
+{
+    color: #EFC334;
+}
+
+/* Accueil : Section diapo */
+
+.rondd
+{
+    transform: translate(0px, 20vw);
+    width: 75px;
+    height: 75px;
+}
+.droitee
+{
+    margin-left: 75vw;
+}
+.rondd>svg
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.imgdiapo>.image>img
+{
+    width: 98.5vw;
+}
+.image>p
+{
+    width: 100%;
+    bottom: 35vh;
+    font-size: 56px;
+}
+.filtre
+{
+    z-index: 5;
+    width: 20vw;
+    height: 11.62vw;
+}
+
+/* Accueil : Section grand axes */
+
+.grandaxe>.flexcenter
+{
+    margin-right: 10vw;
+}
+.grandaxe>.flexcenter>.flex
+{
+    display: flex;
+    height: auto;
+}
+.flexcenter>.flex>div
+{
+    width: 20vw;
+    height: 11.62vw;
+    background-size: 100%;
+}
+.derriere
+{
+    width: 20vw;
+    height: 11.62vw;
+}
+.derriere>div
+{
+    margin-top: 9.75vw;
+    margin-left: 10px;
+    width: 16vw;
+}
+.devant
+{
+    position: absolute;
+    width: 20vw;
+    height: 11.62vw;
+    z-index: 2;
+}
+.alimentation>.devant, .reservation>.derriere, .alimentation>.derriere, .exercice>.derriere, .reservation>.devant, .exercice>.devant
+{
+    margin-top: 0px;
+}
+.reservation>.devant
+{
+    background-size: 105%;
+}
+.translate
+{
+    transform: translateY(-2.5vw);
+}
+
+/* Accueil : Exercices */
+
+.lien1>a, .lien2>a, .lien3>a
+{
+    margin-left: 45%;
+}
+.cardio>h1, .prdema>h1, .musculation>h1
+{
+    font-size: 45px;
+    margin-top: 55px;
+}
+.cardio>p, .prdema>p, .musculation>p
+{
+    font-size: 17px;
+    margin-top: 125px;
+    width: initial;
+}
+
+/* Réservation */
+
+form
+{
+    margin-left: 15vw;
+}
+.contact
+{
+    position: initial;
+}
+.input1
+{
+    width: 260px;
+}
+.input2
+{
+    width: 530px;
+}
+.padding11
+{
+    margin-top: 5px;
+}
+.textarea
+{
+    padding-bottom: 125px;
+}
+.submit
+{
+    border-bottom: none;
+    width: 530px;
+    background: white;
+    color: black;
+}
+.h1
+{
+    margin-top: 0px;
+    margin-left: 5%;
+}
+
+#map
+{
+    margin-left: 5vw;
+    width: 35vw;
+    height: 316px;
+}
+.filtre3
+{
+    z-index: 15;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: gray;
+    opacity: 0.7;
+}
+.reservationfoot
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+/* Agence */
+
+.banderole1{
+    display: flex;
+}
+.bloc1{
+    display: grid;
+    grid-template-columns: 15vw 30vw;
+    grid-template-rows: 18.06vw 9.03vw;
+    height: 27.10vw;
+    width: 45vw;
+}
+.banderole2{
+    padding: 50px;
+}
+.bloc2{
+    display: grid;
+    grid-template-columns: 30vw 15vw;
+    grid-template-rows: 9.03vw 18.06vw;
+    height: 27.10vw;
+    width: 45vw;
+    background-color: #26A699;
+    margin-left: 400px;
+}
+@keyframes fondu {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+.image2
+{
+    width: 15vw;
+}
+.texte
+{
+    width: 25vw;
+    padding: 25px;
+    font-size:1.25vw;
+    margin-left: 40px;
+}
+.boutton{
+    margin-left: 18vw;
+    margin-top: 3.5vw;
+    height: 2.5vw;
+    width: 10vw;
+}
+.btn, .btn2{
+    font-size: 18px;
+}
+.texte2{
+    width: 25vw;
+    padding: 50px;
+    font-size:20px;
+}
+.image3{
+    width: 15vw;
+}
+.boutton2{
+    margin-top: 0px;
+    height: 2.5vw;
+    width: 10vw;
+}
+
+/* Agence : Equipe */
+
+.premier{
+    font-size: 50px;
+}
+
+hr{
+    width: 50vw;
+}
+.ligne1, .ligne2{
+    display: flex;
+    margin: 30px;
+}
+.carre1, .carre2, .carre3, .carre4
+{
+    width: 45vw;
+    height: 19.76vw;
+    display: flex;
+}
+.carre2, .carre4
+{
+    margin-top: auto;
+}
+.photo1, .photo2, .photo3, .photo4
+{
+    width: 44.44%;
+    height: 100%;
+    border-top-left-radius:28px;
+    border-bottom-left-radius:28px;
+}
+.photo1{
+    background-size: 100%;
+}
+.photo2{
+    background-size: 100%;
+}
+.photo3{
+    background-size: 100%;
+}
+.photo4{
+    background-size: 100%;
+}
+.contenu1, .contenu2, .contenu3, .contenu4
+{
+    height: 29vw;
+    width: 25vw;
+}
+.nom1, .nom2, .nom3, .nom4
+{
+    font-size: 35px;
+    margin-top: 20px;
+}
+.description1, .description2, .description3, .description4
+{
+    font-size: 1.05vw;
+    padding-bottom: 20px;
+    height: 15vw;
+    width: auto;
+}
+
+/* Agence : Partenaire */
+
+.yes{
+    font-size: 45px;
+}
+.square1, .square2, .square3, .square4
+{
+    width: 70vw;
+    height: 36.73vw;
+
+} 
+
+/* Pour NIKE */
+
+.txt1, .txt2, .txt3, .txt4
+{
+    padding-top: 40px;
+}
+
+/* Alimentation */
+
+.image4{
+    width: 15vw;
+}
+.image5{
+    width: 15vw;
+}
+.bloc10
+{
+    grid-template-columns: 15vw 30vw;
+    grid-template-rows: 18.06vw 9.03vw;
+    height: 27.10vw;
+    width: 45vw;
+}
+.bloc11
+{
+    grid-template-columns: 30vw 15vw;
+    grid-template-rows: 9.03vw 18.06vw;
+    height: 27.10vw;
+    width: 45vw;
+    margin-left: 400px;
+}
+.boutton10, .boutton11
+{
+    height: 2.5vw;
+    width: 10vw;
+}
+.boutton10{
+    margin-left: 18vw;
+    margin-top: 5.5vw;
+}
+.boutton11{
+    margin-top: 1.9vw;
+    margin-left: 2vw;
+}
+.texte10>p, .texte11>p
+{
+    font-size: 1.4vw;
+}
+
+/* Alimentation : Recette */
+
+.connexion1, .connexion2{
+    display: flex;
+}
+.rec1, .rec2, .rec3, .rec4, .rec5
+{
+    width: 25vw;
+    height: 36.23vw;
+    margin-left: 0px;
+    grid-template-rows: 6.63vw 29.6vw;
+}
+.rec2, .rec3, .rec5
+{
+    margin-top: 0%;
+}
+.tiitle1, .tiitle2, .tiitle3, .tiitle4, .tiitle5
+{
+    padding: 2vw;
+    font-size: 1.5vw;
+}
+.kontour1, .kontour2, .kontour3, .kontour4, .kontour5
+{
+    width: 22.5vw;
+    height: 29vw
+}
+.pics1, .pics2, .pics3, .pics4, .pics5
+{
+    width: 20vw;
+    height: 12.12vw;
+    margin-top: 5%;
+}
+.blabla1, .blabla2, .blabla3, .blabla4, .blabla5
+{
+    font-size: 0.7vw;
+}
+.mouv2{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.connexion2{
+    justify-content: center;
+    gap: 5vw;
+}
+
+/* Alimentation : Shakers */
+
+.yes2
+{
+    font-size: 45px;
+}
+
+/* 1er shaker */
+
+.xtx1, .xtx2, .xtx3, .xtx4
+{
+    padding-top: 40px;
+}
+
+/* 3eme shaker */
+
+.pik3{
+    background-image:url("../img/shirt.jpg");
+    width: 30vw;
+    height: 31.57vw;
+    background-size:100%;
+}
+
+/* Exercice */
+
+.aa
+{
+    font-size: 1.25vw;
+}
+.banderole3, .banderole4{
+    display: flex;
+}
+.banderole3{
+    justify-content: space-between;
+}
+.banderole4{
+    gap: 80px;
+    justify-content: center;
+}
+.bloc3, .bloc4, .bloc5, .bloc6, .bloc7, .bloc8, .bloc9
+{
+    margin-left: 0px;
+    width: 20vw;
+    height: 15.03vw;
+}
+.image6, .image7, .image8, .image9, .image10, .image11, .image12
+{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    height: 100%;
+    transform: translateY(0px);
+    border-radius: 20px;
+}
+.image6, .image7, .image10, .image12{
+    background-size: 115%;
+}
+.image8, .image9{
+    background-size: 135%;
+}
+.image6{
+    background-image: url("../img/cardio.jpg");
+}
+.image7{
+    background-image: url("../img/musculation.jpg");
+}
+.image8{
+    background-image: url("../img/masse.jpg");
+}
+.image9{
+    background-image: url("../img/poids.jpg");
+}
+.image10{
+    background-image: url("../img/etirement.jpg");
+}
+.image11{
+    background-image: url("../img/equilibre.jpg");
+    background-size: 100%;
+}
+.image12{
+    background-image:url("../img/domicile.jpg");
+}
+.texte3, .texte4, .texte5, .texte6, .texte7, .texte8, .texte9, .texte10, .texte11, .texte12
+{
+    position: initial;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 1.25vw;
+}
+.texte10, .texte11
+{
+    font-size:1vw;
+}
+.texte10
+{
+    width: 80%;
+    margin-left: 40px;
+}
+.texte11
+{
+    width: 90%;
+}
+.boutton3, .boutton4, .boutton5, .boutton6, .boutton7, .boutton8, .boutton9
+{
+    display: flex;
+    justify-content: center;
+    border : solid 2px white;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    position: initial;
+    top: 0px;
+    left: 0px;
+    width: 80%;
+}
+.mich
+{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+/* Exercice : Cardio */
+
+.grid2>.lien1, .grid2>.lien2, .grid2>.lien3
+{
+    padding-top: 15%;
+}
+.grid2>.lien1>h1, .grid2>.lien2>h1, .grid2>.lien3>h1
+{
+    font-size: 1.8vw;
+}
+.grid2>.lien1>p, .grid2>.lien2>p, .grid2>.lien3>p
+{
+    font-size: 1.25vw;
+}

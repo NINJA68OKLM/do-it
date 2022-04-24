@@ -1,0 +1,1195 @@
+body
+{
+    margin: 0px;
+    font-family: 'Kanit', sans-serif;
+}
+.flex
+{
+    display: flex;
+}
+
+/* Section Menu */
+
+header
+{
+    background: #EFC334;
+    padding: 10px;
+    display: block;
+    height: 38px;
+    padding-bottom: 0px;
+}
+header>svg
+{
+    position: absolute;
+    top: 5px;
+}
+.logo
+{
+    background-image: url("../img/Logo.png");
+    background-size: 125%;
+    position: absolute;
+    width: 38.55px;
+    height: 38px;
+    top: 0;
+}
+a
+{
+    text-decoration: none;
+}
+li
+{
+    text-align: center;
+}
+.wrapper
+{
+    margin: 0 auto;
+    padding-left: 0px;
+    margin-right: 5px;
+    margin-top: 38px;
+    display: none;
+}
+header>ul>li>a
+{
+    padding: 10px;
+    color: black;
+}
+.wrapper>li
+{
+    margin-top: 10px;
+}
+header>ul>li, header>ul>ul>li{
+    display: block;
+}
+header li a:hover
+{
+    background: #FFFDEF;
+}
+.sub-menu
+{
+    display: none;
+}
+.flexcenter
+{
+    display: flex;
+    justify-content: center;
+}
+.visible
+{
+    display: initial;
+}
+.taille
+{
+    height: auto;
+    padding-top: 38px;
+}
+
+/* Accueil : Section diapo */
+
+.diapo
+{
+    width: 98.5vw;
+    height: 44.44vw;
+    overflow: hidden;
+}
+.flex2
+{
+    position: absolute;
+    display: flex;
+    margin-left: 5vw;
+    justify-content: space-evenly;
+}
+.diapo>.imgdiapo
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+}
+.imgdiapo>.image>img
+{
+    width: 99vw;
+    height: 100%;
+}
+.image>p
+{
+    position: relative;
+    width: 100vw;
+    bottom: 10vh;
+    left: 0px;
+    font-size: 15px;
+    background: gray;
+    opacity: 0.5;
+}
+.rondd
+{
+    transform: translate(0px, 9vh);
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background: gray;
+    opacity: 0.7;
+    z-index: 2;
+}
+.droitee
+{
+    margin-left: 55vw;
+}
+.filtre
+{
+    position: absolute;
+    z-index: 6;
+    width: 100%;
+    height: 100%;
+    background-color:gray;
+    opacity: 0.8;
+}
+
+/* Accueil : Section grand axes */
+
+#grandaxe
+{
+    background: linear-gradient(#F2B035, #ee8403);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 35px;
+}
+.grandaxe>.flexcenter
+{
+    justify-content: initial;
+    margin-left: 10vw;
+}
+.grandaxe>.flexcenter>.flex
+{
+    display: block;
+    height: 844.6px;
+}
+.divo:hover .devant
+{
+    transform: translateY(-7.5vh);
+}
+.devant
+{
+    transition: 2s;
+}
+.derriere
+{
+    width: 80vw;
+    height: 46.51vw;
+    background: #26a699;
+    position: absolute;
+    color: white;
+    z-index: 1;
+}
+.derriere>div
+{
+    margin-top: 36vw;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 62vw;
+    padding-left: 1vw;
+}
+.derriere>div>a
+{
+    color: white;
+}
+.devant
+{
+    position: absolute;
+    width: 80vw;
+    height: 46.51vw;
+    z-index: 2;
+}
+.devant>p
+{
+    position: absolute;
+    z-index: 10;
+    color: white;
+    margin-top: 5vw;
+    margin-left: 1vw;
+}
+.agence>.devant
+{
+    background-image: url("../img/agence.jpg");
+    background-size: 100%;
+}
+.alimentation>.devant
+{
+    background-image: url("../img/photo-1529973565457-a60a2ccf750d.jpg");
+    background-size: 100%;
+}
+.alimentation>.devant, .alimentation>.derriere
+{
+    margin-top: 211.15px;
+}
+.exercice>.devant
+{
+    background-image: url("../img/photo-1483721310020-03333e577078.jpg");
+    background-size: 100%;
+}
+.exercice>.devant, .exercice>.derriere
+{
+    margin-top: 422.3px;
+}
+.reservation>.devant
+{
+    background-image: url("../img/photo-1559030623-0226b1241edd.jpg");
+    background-size: 105%;
+}
+.reservation>.devant, .reservation>.derriere
+{
+    margin-top: 633.45px;
+}
+.translate
+{
+    transform: translateY(-15vw);
+}
+
+/* Accueil : Exercices */
+
+.gridexo
+{
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-rows: 33vw 33vw 33vw;
+}
+.cardio, .musculation, .prdema
+{
+    grid-column: span 2;
+    background-size: 100%;
+}
+.cardio
+{
+    background-image: url("../img/gabin-vallet-J154nEkpzlQ-unsplash.jpg");
+}
+.musculation
+{
+    background-image: url("../img/gorilla-freak-wt5jg8_WrJg-unsplash.jpg");
+}
+.prdema
+{
+    background-image: url("../img/scott-webb-xwMlVSqP20U-unsplash.jpg");
+}
+.lien1, .lien2, .lien3
+{
+    padding-top: 45%;
+}
+.lien1
+{
+    background:#208C81;
+}
+.lien2
+{
+    background: #EFC334;
+}
+.lien3
+{
+    background: #26A699;
+}
+.lien1>a, .lien2>a, .lien3>a
+{
+    color: white;
+    border: 2px solid white;
+    margin-left: 8%;
+    padding: 5px;
+    border-radius: 5px;
+}
+.prdema>h1, .prdema>p, .musculation>h1, .musculation>p, .cardio>p, .cardio>h1
+{
+    position: absolute;
+    z-index: 6;
+    margin-left: 15px;
+}
+.cardio>h1, .prdema>h1, .musculation>h1
+{
+    font-size: 22.5px;
+    margin-top: 0px;
+}
+.cardio>p, .prdema>p, .musculation>p
+{
+    font-size: 13px;
+    width: 63vw;
+    margin-top: 45px;
+}
+.filtre2
+{
+    width: 66vw;
+    height: 33vw;
+    background-color:gray;
+    opacity: 0.5;
+}
+
+/* Bas de page */
+
+footer
+{
+    color: white;
+    background: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Réservation */
+
+.contact
+{
+    display: initial;
+    padding-top: 2.5%;
+}
+.contact>h1
+{
+    color: white;
+    margin-left: 5%;
+}
+form 
+{
+    margin-left: 5%;
+}
+.input1
+{
+    width: 90%;
+}
+.input2
+{
+    width: 90%;
+}
+.padding21
+{
+    margin-right: 5px;
+}
+.padding2
+{
+    margin-top: 5px;
+}
+.padding11
+{
+    margin-top: 5px;
+}
+.textarea
+{
+    padding-bottom: 125px;
+}
+.submit
+{
+    margin-top: 5px;
+    border-bottom: none;
+    width: 90%;
+    background: white;
+    color: black;
+    margin-left: 7.5px;
+}
+input[type=checkbox]
+{
+    margin-top: 15px;
+    padding-left: 5%;
+}
+
+/* Agence */
+
+.noir{
+    background-color: black;
+    width: 100vw;
+    height: 100%;
+    opacity: 0.5;
+    position: fixed;
+    z-index: -1;
+}
+.banderole1, .banderole2
+{
+    opacity: 0;
+}
+.banderole1{
+    display: block;
+    justify-content: center;
+    padding: 50px;
+    padding-left: 15px;
+    animation: fondu 3s;
+}
+.bloc1, .bloc2
+{
+    display: grid;
+    border-radius:30px;
+    box-shadow: 10px 10px 15px gray;
+}
+.bloc1{
+    grid-template-columns: 26.67vw 53.33vw;
+    grid-template-rows: 32.12vw 16.06vw;
+    height: 48.19vw;
+    width: 80vw;
+    margin-right: 300px;
+    background-color: #EFC334;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px gray;
+}
+.banderole2{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    animation: fondu 4s;
+    animation-delay: 1s;
+}
+.bloc2{
+    grid-template-columns: 53.33vw 26.67vw;
+    grid-template-rows: 32.12vw 16.06vw;
+    height: 48.19vw;
+    width: 80vw;
+    background-color: #26A699;
+    margin-left: 35px;
+}
+@keyframes fondu {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+.image2{
+    height: 100%;
+    width: 26.67vw;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    background-image: url("../img/agence2.jpg");
+    background-size: 100%;
+    grid-row: span 2;
+}
+.texte{
+    height: 14.04vw;
+    width: 51vw;
+    padding: 5px;
+    font-size:2.75vw;
+    margin-left: 5px;
+}
+.boutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30vw;
+    margin-top: 11vw;
+    height: 3.5vw;
+    width: 14vw;
+    background-color: wheat;
+    border-radius: 100px;
+}
+.btn, .btn2{
+    font-size: 2.5vw;
+}
+.texte2{
+    height: 100%;
+    width: 51vw;
+    padding: 15px;
+    font-size:2.75vw;
+}
+.image3{
+    height: 100%;
+    width: 26.67vw;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+    background-image: url("../img/etchebest1.jpg");
+    background-size: 100%;
+    grid-row: span 2;
+}
+.boutton2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.5vw;
+    height: 3.5vw;
+    width: 14vw;
+    background-color: wheat;
+    border-radius: 100px;
+}
+
+/* Agence : Equipe */
+
+.premier{
+    display: flex;
+    font-size: 12vw;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+hr{
+    border : solid 5px white;
+    width: 75vw;
+    margin-bottom: 70px;
+}
+.ligne1, .ligne2{
+    gap: 3vw;
+    display: block;
+}
+.ligne1{
+    margin-top: 30px;
+    margin-left: 10vw;
+    margin-bottom: 10px;
+}
+.carre1, .carre2, .carre3, .carre4
+{
+    width: 80vw;
+    height: 37.64vw;
+    background-color: transparent;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 44.44% 55.56%;
+    border: solid 3px white;
+}
+.carre2, .carre4
+{
+    margin-top: 10px;
+}
+.ligne2{
+    justify-content: center;
+    margin: 30px;
+    margin-top: 10px;
+}
+.photo1, .photo2, .photo3, .photo4
+{
+    width: 38.66vw;
+    height: 37.64vw;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+}
+.photo1{
+    background-image: url("../img/osman.png");
+    background-size: 105%;
+}
+.photo2{
+    background-image: url("../img/val.png");
+    background-size: 112%;
+}
+.photo3{
+    background-image: url("../img/mus.png");
+    background-size: 112%;
+}
+.photo4{
+    background-image: url("../img/albin.png");
+    background-size: 112%;
+}
+.contenu1, .contenu2, .contenu3, .contenu4
+{
+    display: grid;
+    grid-template-rows: 29.07% 70.93%;
+    height: 37.64vw;
+    width: 25vw;
+}
+.nom1, .nom2, .nom3, .nom4
+{
+    font-size: 4.5vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5%;
+    color: white;
+}
+.osman, .mustafa, .albin, .valentin{
+    width: 12vw;
+    border : 3px solid white;
+    margin-bottom: 50px;
+}
+.description1, .description2, .description3, .description4
+{
+    padding: 15px;
+    font-size: 2.25vw;
+    color: white;
+    width: 37vw;
+}
+
+/* Agence : Partenaire */
+
+.title{
+    padding: 20px;
+    background-image: url("../img/sable.jpg");
+    font-size: 100%;
+}
+.yes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 8vw;
+}
+.haut1, .haut2, .haut3, .haut4
+{
+    font-size: 2.5vw;
+}
+.square1, .square2, .square3, .square4
+{
+    width: 70vw;
+    height: 36.73vw;
+} 
+.immg1, .immg2, .immg3, .immg4
+{
+    width: 30vw;
+    height: 36.7vw;
+}
+
+/* Pour NIKE */
+
+.nike{
+    display: flex;
+}
+.square1, .square3
+{
+    background-color: #EFC334;
+}
+.immg1{
+    background-image: url("../img/nike1.jpg");
+    background-size:100%;
+}
+.test1{
+    display: flex;
+    justify-content: center;
+}
+.txt1, .txt2, .txt3, .txt4
+{
+    text-align: center;
+    width: 60vw;
+    padding-top: 3vw;
+}
+.cont1, .cont2, .cont3, .cont4
+{
+    font-size: 1.75vw;
+    margin-top: 3vw;
+}
+
+/* Pour WWE */
+
+.wwe{
+    display: flex;
+}
+.immg2{
+    background-image:url("../img/wwe1.jpg");
+    background-size:100%;
+}
+.square2, .square2
+{
+    background: #26A699;
+}
+.test2{
+    display: flex;
+    justify-content: center;
+}
+
+/* Pour JOHN CENA */
+
+.cena{
+    display: flex;
+}
+
+.immg3{
+    background-image: url("../img/etchebest.jpg");
+    background-size: 100%;
+}
+.test3{
+    display: flex;
+    justify-content: center;
+}
+
+/* Pour THE ROCK */
+
+.rock{
+    display: flex;
+}
+
+.immg4{
+    background-image: url("../img/therock1.jpg");
+    background-size: 100%;
+}
+
+
+.test4{
+    display: flex;
+    justify-content: center;
+}
+
+/* Alimentation */
+
+.image4{
+    height: 100%;
+    width: 26.67vw;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    background-image: url("../img/recette1.jpg");
+    background-size: 100%;
+    grid-row: span 2;
+}
+.image5{
+    height: 100%;
+    width: 26.67vw;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+    background-image: url("../img/shaker1.jpg");
+    background-size: 100%;
+    grid-row: span 2;
+}
+.bloc10, .bloc11
+{
+    display: grid;
+    grid-template-rows: 32.12vw 16.06vw;
+    height: 48.19vw;
+    width: 80vw;
+    border-radius: 30px;
+    box-shadow: 10px 10px 15px gray;
+
+}
+.bloc10
+{
+    grid-template-columns: 26.67vw 53.33vw;
+    height: 48.19vw;
+    width: 80vw;
+    margin-right: 300px;
+    background-color: #26A699;
+}
+.bloc11
+{
+    display: grid;
+    grid-template-columns: 53.33vw 26.67vw;
+    background-color: #EFC334;
+    margin-left: 35px;
+    border-radius:30px;
+}
+.boutton10, .boutton11
+{
+    background: white;
+    height: 3.5vw;
+    width: 14vw;
+    border-radius: 15px;
+}
+.boutton10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32vw;
+    margin-top: 11vw;
+}
+.boutton11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+    margin-left: 3.5vw;
+}
+.texte10
+{
+    height: 14.04vw;
+    margin-left: 5px;
+}
+.texte10, .texte11{
+    width: 50vw;
+    padding: 5px;
+    font-size: 2.75vw;
+}
+.texte10>p, .texte10>h1{
+    margin-left: 10px;
+}
+.texte11>p, .texte11>h1{
+    margin-left: 2.5vw;
+}
+.texte10>p, .texte11>p
+{
+    font-size: 2.1vw;
+}
+.texte10>h1, .texte11>h1
+{
+    margin-top: 0px;
+}
+.texte11
+{
+    height: 100%;
+}
+
+/* Alimentation : Recette */
+
+.connexion1{
+    display: block;
+    gap: 5vw;
+    justify-content: center;
+    padding-top: 5%;
+}
+.rec1, .rec2, .rec3, .rec4, .rec5
+{
+    width: 80vw;
+    height: 115.94vw;
+    margin-left: 10vw;
+    background-color: #26A699;
+    border-radius: 30px;
+    display: grid;
+    grid-template-rows: 15.94vw 100vw;
+}
+.rec2, .rec3, .rec5
+{
+    margin-top: 5%;
+}
+.tiitle1, .tiitle2, .tiitle3, .tiitle4, .tiitle5
+{
+    padding: 4vw;
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+}
+.pics1, .pics2, .pics3, .pics4, .pics5
+{
+    width: 64.01vw;
+    height: 32.32vw;
+    background-size: 100%;
+    margin-top: 5%;
+    margin-left: 0.95vw;
+}
+.pics1
+{
+    background-image: url("../img/lasagne-epinard-healthy-saumon.png");
+}
+.mouv1, .mouv2, .mouv3, .mouv4, .mouv5{
+    display: flex;
+    justify-content: center;
+}
+.blabla1, .blabla2, .blabla3, .blabla4, .blabla5
+{
+    font-size: 1.9vw;
+}
+.blabla1>ul, .blabla2>ul, .blabla3>ul, .blabla4>ul, .blabla5>ul
+{
+    margin-top: 0px;
+    padding-left: 15px;
+}
+.kontour1, .kontour2, .kontour3, .kontour4, .kontour5
+{
+    background-color: #EFC334;
+    border-radius: 30px;
+    width: 72.02vw;
+    height: 93.6vw
+}
+.chacal1, .chacal6, .chacal4, .chacal5, .chacal2, .chacal3, .mouv7, .mouv8, .mouv9, .mouv10, .mouv11, .mouv12
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* 2eme recette */
+
+.pics2{
+    background-image: url("../img/Gaufres.png");
+}
+.mouv2, .mouv4, .mouv6, .mouv8, .mouv10{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+/* 3eme recette */
+
+.pics3{
+    background-image: url("../img/pancakes-sarrasin.png");
+}
+.mouv6{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+/* 4eme recette */
+
+.pics4{
+    background-image: url("../img/Beignets-de-courgettes-et-feta-healthy.png");
+}
+
+/* 5eme recette */
+
+.pics5{
+    background-image: url("../img/soupe-oignon-healthy.png");
+}
+.connexion2{
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* Alimentation : Shakers */
+
+.yes2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+}
+.titlee{
+    padding: 20px;
+    background-image: url("../img/water.jpg");
+    background-size: 100%;
+}
+.shaker1, .shaker2, .shaker3, .shaker4{
+    display: flex;
+}
+.pik1, .pik2, .pik3, .pik4{
+    width: 30vw;
+    height: 31.57vw;
+}
+.pik1, .pik4{
+    background-size:104%;
+}
+.pik2, .pik3{
+    background-size:100%;
+}
+.pik1{
+    background-image:url("../img/bottle.jpg");
+}
+.pik2{
+    background-image:url("../img/phone.jpg");
+}
+.pik3{
+    background-image:url("../img/shirt.jpg");
+}
+.pik4{
+    background-image:url("../img/visite.jpg");
+}
+.karri1, .karri2, .karri3, .karri4{
+    width: 70vw;
+    height: 31.57vw;
+}
+.karri1, .karri3{
+    background: #26A699;
+}
+.karri2, .karri4{
+    background: #EFC334;
+}
+.taper1, .taper2, .taper3, .taper4{
+    display: flex;
+    justify-content: center;
+}
+.high1, .high2, .high3, .high4
+{
+    font-size: 1.75vw;
+}
+.xtx1, .xtx2, .xtx3, .xtx4
+{
+    text-align: center;
+    width: 60vw;
+}
+.sin1, .sin2, .sin3, .sin4
+{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+}
+
+/* Exercice */
+
+.aa
+{
+    color: white;
+    font-size: 5vw;
+}
+.banderole3, .banderole4{
+    display: block;
+    justify-content: center;
+    margin-top: 5vw;
+}
+.bloc3, .bloc4, .bloc5, .bloc6, .bloc7, .bloc8, .bloc9
+{
+    width: 80vw;
+    height: 60.3vw;
+    margin-left: 5vw;
+    opacity: 0;
+    border : transparent 10px solid;
+    border-radius: 30px;
+    animation: pop 2s;
+}
+.image6, .image7, .image8, .image9, .image10, .image11, .image12
+{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    height: 100%;
+    background-size: 115%;
+    border-radius: 20px;
+}
+.image6{
+    background-image: url("../img/cardio.jpg");
+}
+.filtre3, .filtre4, .filtre6, .filtre7, .filtre8, .filtre9{
+    opacity: 0.4;
+}
+.filtre5{
+    opacity: 0.2;
+}
+.filtre9{
+    background-color: black;
+    border-radius: 20px;
+}
+.image7{
+    background-image: url("../img/musculation.jpg");
+}
+.image8{
+    background-image: url("../img/masse.jpg");
+}
+.image9{
+    background-image: url("../img/poids.jpg");
+}
+.image10{
+    background-image: url("../img/etirement.jpg");
+}
+.image11{
+    background-image: url("../img/equilibre.jpg");
+}
+.image12{
+    background-image:url("../img/domicile.jpg");
+}
+.texte3, .texte4, .texte5, .texte6, .texte7, .texte8, .texte9
+{
+    color: white;
+    font-size: 6vw;
+    text-align: center;
+    align-items: center;
+}
+.joi, .boutton3, .boutton4, .boutton5, .boutton6, .boutton7, .boutton8, .boutton9
+{
+    display: flex;
+    justify-content: center;
+}
+.joi
+{
+    align-items: center;
+}
+.boutton3, .boutton4, .boutton5, .boutton6, .boutton7, .boutton8, .boutton9
+{
+    padding: 15px 20px;
+    border : solid 2px white;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+}
+.bloc3{
+    opacity: 1;
+    animation-delay: 2.2s;
+}
+.bloc4, .bloc5, .bloc6, .bloc7, .bloc8, .bloc9{
+    opacity: 0;
+}
+.bloc4{
+    animation-delay: 1.7s;
+}
+.bloc5{
+    animation-delay: 2.6s;
+}
+.bloc6{
+    animation-delay: 3s;
+}
+.bloc7{
+    animation-delay: 1s;
+}
+.bloc8{
+
+    animation-delay: 2s;
+}
+.bloc9{
+    animation: pop 2.3s;
+    animation-delay: 3.2s;
+}
+.bloc3:hover, .bloc6:hover, .bloc8:hover, .bloc9:hover, .bloc4:hover, .bloc5:hover, .bloc7:hover
+{
+    border-radius: 30px;
+    transition: 1s;
+}
+.bloc3:hover, .bloc6:hover, .bloc8:hover, .bloc9:hover
+{
+    border : #EFC334 10px solid;
+}
+.bloc4:hover, .bloc5:hover, .bloc7:hover
+{
+    border : #26A699 10px solid;
+}
+@keyframes pop {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.filtre3:hover, .filtre4:hover, .filtre5:hover, .filtre6:hover, .filtre7:hover, .filtre8:hover, .filtre9:hover
+{
+    opacity: 0;
+    transition: 1s;
+}
+.ichm
+{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+/* Exercice : Cardio */
+
+.grid2
+{
+    margin-top: 0%;
+}
+.imaag1, .imaag2, .imaag3
+{
+    width: 66vw;
+    height: 33vw;
+    background-size: 100%;
+    grid-column: span 2;
+}
+.imaag1
+{
+    background-image: url("../img/cardio1.jpg");
+}
+.imaag2
+{
+    background-image: url("../img/scott-webb-xwMlVSqP20U-unsplash1.jpg");
+}
+.imaag3
+{
+    background-image: url("../img/meghan-holmes-buWcS7G1_28-unsplash1.jpg");
+}
+.grid2>.lien1, .grid2>.lien2, .grid2>.lien3
+{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.grid2>.lien1>h1, .grid2>.lien2>h1, .grid2>.lien3>h1
+{
+    font-size: 3.5vw;
+}
+.grid2>.lien1>p, .grid2>.lien2>p, .grid2>.lien3>p
+{
+    font-size: 1.5vw;
+}
+
+/* Exercice : Musculation */
+
+.imaag1.musc, .imaag3.musc
+{
+    background-size: 105%;
+}
+.imaag1.musc
+{
+    background-image: url("../img/damir-spanic-Cs73R4ZO50E-unsplash.jpg");
+}
+.imaag2.musc
+{
+    background-image: url("../img/alexander-redl-qo1pyCD02t4-unsplash.jpg");
+}
+.imaag3.musc
+{
+    background-image: url("../img/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg");
+}
+
+/* Exercice : Prise de masse */
+
+.imaag1.musc, .imaag3.musc
+{
+    background-size: 105%;
+}
+.imaag1.pdm
+{
+    background-image: url("../img/daniel-apodaca-WdoQio6HPVA-unsplash.jpg");
+}
+.imaag2.pdm
+{
+    background-image: url("../img/sam-moqadam-Z4Q9KHw9ofE-unsplash.jpg");
+}
+.imaag3.pdm
+{
+    background-image: url("../img/anastase-maragos-7kEpUPB8vNk-unsplash(1).jpg");
+}
